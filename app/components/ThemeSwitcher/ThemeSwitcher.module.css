@@ -1,0 +1,34 @@
+.themeSwitcher {
+  position: relative;
+  width: 120px;
+  height: 42px;
+  border: 2px solid var(--color-text);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+}
+
+.themeSwitcher[data-theme="light"] {
+  justify-content: flex-start;
+}
+.themeSwitcher[data-theme="dark"] {
+  justify-content: flex-end;
+}
+
+.slider {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: rgba(var(--color-grey-rgb), 0.3);
+  margin: 2px 2px;
+}
+
+.button {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+}

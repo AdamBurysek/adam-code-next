@@ -1,0 +1,13 @@
+.next
+.vercel
+.vscode
+node_modules
+out
+dist
+.eslintrc.js
+*.yml
+*.yaml
+tailwind.config.ts
+postcss.config.js
+next.config.mjs
+next-env.d.ts
