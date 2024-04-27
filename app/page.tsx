@@ -1,17 +1,17 @@
-import AdamCodeLogo from './components/AdamCodeLogo/AdamCodeLogo';
-import ThemeSwitcher from './components/ThemeSwitcher/ThemeSwitcher';
+import Navbar from './components/Navbar/Navbar';
 import styles from './page.module.css';
 
 const Home = () => (
-  <main className={styles.main}>
-    <AdamCodeLogo />
-    <h1>
-      Hello, I&apos;m Adam
-      <br />
-      <span className="gradient">a Full Stack Developer</span>
-    </h1>
-    <ThemeSwitcher />
-  </main>
+  <>
+    <Navbar />
+    <main className={styles.main}>
+      <h1>
+        Hello, I&apos;m Adam
+        <br />
+        <span className="gradient">a Full Stack Developer</span>
+      </h1>
+    </main>
+  </>
 );
 
 export default Home;
