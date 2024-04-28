@@ -2,11 +2,12 @@
 
 import { useState } from 'react';
 
+import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
+
+import AdamCodeLogo from './AdamCodeLogo';
 import HamburgerButton from './Hamburger';
 import styles from './Navbar.module.css';
 import { navLinks } from './navLinks';
-import AdamCodeLogo from './AdamCodeLogo';
-import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
 
 const Navbar = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
     <header className={`${styles.navbar} ${menuOpened ? styles.menuOpen : ''}`}>
       <div className={styles.container}>
         <div className={styles.navbarSide}>
-          <button type="button">
+          <button aria-label="Home Button" type="button">
             <span className={styles.logo}>
               <AdamCodeLogo />
             </span>
@@ -37,9 +38,14 @@ const Navbar = () => {
           </nav>
         </div>
         <div className={styles.navbarSide}>
-          <div className={styles.languageSwitcher}>
-            <button>CZ</button>
-            <button>EN</button>
+          <div className={styles.languageSwitcherDesktop}>
+            <p>EN</p>
+            <button type="button">CZ</button>
+            <button type="button">EN</button>
+          </div>
+          <div className={styles.languageSwitcherMobile}>
+            <button type="button">CZ</button>
+            <button type="button">EN</button>
           </div>
           <ThemeSwitcher />
         </div>

@@ -26,11 +26,12 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  position: relative;
 }
 
 .logo {
   position: absolute;
-  top: 18px;
+  top: 0;
   margin-left: 20px;
   cursor: pointer;
   left: 0;
@@ -48,11 +49,11 @@
   padding: 15px 0;
 }
 
-.languageSwitcher {
+.languageSwitcherMobile {
   margin-top: 30px;
 }
 
-.languageSwitcher::before {
+.languageSwitcherMobile::before {
   content: '';
   position: absolute;
   left: 5%;
@@ -62,6 +63,66 @@
   margin-top: -15px;
 }
 
+.languageSwitcherMobile button {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 8px;
+}
+
+.languageSwitcherDesktop {
+  position: absolute;
+  padding: 5px 20px 5px 10px;
+  top: -2px;
+  right: 110px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 80px;
+  max-height: 30px;
+  transition: 0.5s;
+  overflow: hidden;
+  display: none;
+}
+
+.languageSwitcherDesktop button {
+  font-weight: 500;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.languageSwitcherDesktop button:hover {
+  color: var(--color-primary);
+}
+
+.languageSwitcherDesktop:hover {
+  background-color: rgba(var(--color-grey-rgb), 0.3);
+  max-height: 80px;
+}
+
+.languageSwitcherDesktop:hover p {
+  color: var(--color-primary);
+}
+
+.languageSwitcherDesktop:hover p:after {
+  border-bottom: 2px solid var(--color-primary);
+  border-left: 2px solid var(--color-primary);
+}
+
+.languageSwitcherDesktop p {
+  font-weight: 500;
+}
+
+.languageSwitcherDesktop p:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  margin-left: 4px;
+  width: 7px;
+  height: 7px;
+  border-bottom: 2px solid var(--color-text);
+  border-left: 2px solid var(--color-text);
+  rotate: -45deg;
+}
+
 .links button {
   cursor: pointer;
   font-weight: 700;
@@ -69,6 +130,9 @@
 }
 
 @media screen and (min-width: 880px) {
+  .navbar {
+    overflow: visible !important;
+  }
   .container,
   .navbarSide {
     flex-direction: row;
@@ -99,7 +163,13 @@
   .logo {
     left: auto;
   }
-  .languageSwitcher::before {
+
+  .languageSwitcherDesktop {
+    display: block;
+  }
+
+  .languageSwitcherMobile,
+  .languageSwitcherMobile::before {
     display: none;
   }
   .menuOpen {

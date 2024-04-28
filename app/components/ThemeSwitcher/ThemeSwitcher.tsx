@@ -5,47 +5,6 @@ import { useEffect, useState } from 'react';
 
 import styles from './ThemeSwitcher.module.css';
 
-const ThemeSwitcher = () => {
-  const [theme, setTheme] = useState('system');
-
-  useEffect(() => {
-    document.body.dataset.theme = theme;
-  }, [theme]);
-
-  return (
-    <div className={styles.themeSwitcher} data-theme={theme}>
-      <button
-        className={styles.button}
-        onClick={() => setTheme('light')}
-        type="button"
-      >
-        <Light />
-      </button>
-      <button
-        className={styles.button}
-        onClick={() => setTheme('system')}
-        type="button"
-      >
-        <System />
-      </button>
-      <button
-        className={styles.button}
-        onClick={() => setTheme('dark')}
-        type="button"
-      >
-        <Dark />
-      </button>
-      <motion.div
-        className={styles.slider}
-        layout
-        transition={{ duration: 1, type: 'spring' }}
-      />
-    </div>
-  );
-};
-
-export default ThemeSwitcher;
-
 const Light = () => (
   <svg
     className={styles.svg}
@@ -67,10 +26,10 @@ const Light = () => (
 const Dark = () => (
   <svg
     className={styles.svg}
-    width="12"
+    fill="none"
     height="12"
     viewBox="0 0 10 10"
-    fill="none"
+    width="12"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
@@ -83,18 +42,62 @@ const Dark = () => (
 const System = () => (
   <svg
     className={styles.svg}
-    width="12"
+    fill="none"
     height="11"
     viewBox="0 0 12 11"
-    fill="none"
+    width="12"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
       className={styles.stroke}
       d="M6 10.5V8M6 10.5H8.5M6 10.5H3.5M6 8H11V1H1V8H6Z"
       stroke="black"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
+
+const ThemeSwitcher = () => {
+  const [theme, setTheme] = useState('system');
+
+  useEffect(() => {
+    document.body.dataset.theme = theme;
+  }, [theme]);
+
+  return (
+    <div className={styles.themeSwitcher} data-theme={theme}>
+      <button
+        aria-label="Theme Mode Light"
+        className={styles.button}
+        onClick={() => setTheme('light')}
+        type="button"
+      >
+        <Light />
+      </button>
+      <button
+        aria-label="Theme Mode System"
+        className={styles.button}
+        onClick={() => setTheme('system')}
+        type="button"
+      >
+        <System />
+      </button>
+      <button
+        aria-label="Theme Mode Dark"
+        className={styles.button}
+        onClick={() => setTheme('dark')}
+        type="button"
+      >
+        <Dark />
+      </button>
+      <motion.div
+        className={styles.slider}
+        layout
+        transition={{ duration: 1, type: 'spring' }}
+      />
+    </div>
+  );
+};
+
+export default ThemeSwitcher;
