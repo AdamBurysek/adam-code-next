@@ -70,17 +70,24 @@ const getCookie = (name: string) => {
 };
 
 const ThemeSwitcher = () => {
-  const initialTheme = getCookie('theme') || 'system';
-  const [theme, setTheme] = useState(initialTheme);
+  const [theme, setTheme] = useState<string | null>(null);
 
   useEffect(() => {
-    document.body.dataset.theme = theme;
+    const initialTheme = getCookie('theme') || 'system';
+    setTheme(initialTheme);
+  }, []);
 
-    const days = 0.5;
-    const date = new Date();
-    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-    const expires = date.toUTCString();
-    document.cookie = `theme=${theme};expires=${expires};path=/`;
+  useEffect(() => {
+    if (theme) {
+      document.body.dataset.theme = theme;
+
+      // Update cookie to persist theme selection
+      const days = 0.5;
+      const date = new Date();
+      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+      const expires = date.toUTCString();
+      document.cookie = `theme=${theme};expires=${expires};path=/`;
+    }
   }, [theme]);
 
   return (

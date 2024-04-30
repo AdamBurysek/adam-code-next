@@ -71,7 +71,7 @@ const Navbar = () => {
             <ul className={styles.links}>
               {navLinks.map((link) => (
                 <li key={link.target}>
-                  <Link href="/about-me">
+                  <Link href={`/${currentLocale}/about-me`}>
                     <button data-target={link.target} type="button">
                       {link.name}
                     </button>
