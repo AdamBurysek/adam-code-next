@@ -6,7 +6,7 @@ import { dir } from 'i18next';
 import type { Metadata } from 'next';
 
 import './globals.css';
-import { i18nConfig } from '@/i18nConfig';
+import { i18nConfig, type Locale } from '@/i18nConfig';
 
 import Navbar from '../components/Navbar/Navbar';
 import TranslationsProvider from '../components/TranslationsProvider';
@@ -28,7 +28,7 @@ const RootLayout = async ({
   params: { locale },
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: string };
+  params: { locale: Locale };
 }>) => {
   const { t, resources } = await initTranslations(locale, i18namespaces);
   return (
