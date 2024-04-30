@@ -129,6 +129,10 @@
   font-size: 2.2rem;
 }
 
+.active {
+  color: var(--color-primary);
+}
+
 @media screen and (min-width: 880px) {
   .navbar {
     overflow: visible !important;

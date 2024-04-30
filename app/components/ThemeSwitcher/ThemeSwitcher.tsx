@@ -1,3 +1,5 @@
+/* eslint-disable unicorn/no-document-cookie */
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -58,11 +60,25 @@ const System = () => (
   </svg>
 );
 
+const getCookie = (name: string) => {
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return parts[1].split(';')[0];
+  return null;
+};
+
 const ThemeSwitcher = () => {
-  const [theme, setTheme] = useState('system');
+  const initialTheme = getCookie('theme') || 'system';
+  const [theme, setTheme] = useState(initialTheme);
 
   useEffect(() => {
     document.body.dataset.theme = theme;
+
+    const days = 0.5;
+    const date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+    const expires = date.toUTCString();
+    document.cookie = `theme=${theme};expires=${expires};path=/`;
   }, [theme]);
 
   return (
