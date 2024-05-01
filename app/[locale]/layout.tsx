@@ -1,7 +1,3 @@
-/* eslint-disable unused-imports/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 import { dir } from 'i18next';
 import type { Metadata } from 'next';
 
@@ -21,7 +17,7 @@ export function generateStaticParams() {
   return i18nConfig.locales.map((locale) => ({ locale }));
 }
 
-const i18namespaces = ['home'];
+const i18namespaces = ['home', 'navbar'];
 
 const RootLayout = async ({
   children,
@@ -30,6 +26,7 @@ const RootLayout = async ({
   children: React.ReactNode;
   params: { locale: Locale };
 }>) => {
+  // eslint-disable-next-line unused-imports/no-unused-vars, @typescript-eslint/no-unused-vars
   const { t, resources } = await initTranslations(locale, i18namespaces);
   return (
     <html dir={dir(locale)} lang={locale}>

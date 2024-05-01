@@ -1,5 +1,7 @@
 {
   "header-start": "Ahoj, já jsem Adam",
   "header-end": "Full Stack Developer",
-  "desc": "Jsem softwarový programátor s vášní pro technologii. Specializuji se na webové, mobilní nebo desktopové aplikace.  Jsem schopný proměnit Vaše nápady v hotové aplikace pomocí pěkného a funkčního designu. Zaujalo Vás to?? Napiš mi a vytvoříme něco společně."
+  "desc": "Jsem softwarový programátor s vášní pro technologii. Specializuji se na webové, mobilní a desktopové aplikace.  Jsem schopný proměnit Vaše nápady v hotové aplikace pomocí pěkného a funkčního designu. Zaujalo Vás to?? Napište mi a společně něco vytvoříme.",
+  "project-button": "Moje projekty",
+  "contact-button": "Kontakt"
 }

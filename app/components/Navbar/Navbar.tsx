@@ -1,12 +1,5 @@
-/* eslint-disable operator-linebreak */
-/* eslint-disable unicorn/no-document-cookie */
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-
 'use client';
 
-import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -23,27 +16,31 @@ import { navLinks } from './navLinks';
 const Navbar = () => {
   const [menuOpened, setMenuOpened] = useState(false);
 
+  const { t, i18n } = useTranslation();
+
   const router = useRouter();
   const currentPathname = usePathname();
-  const { i18n } = useTranslation();
+  // const { i18n } = useTranslation();
   const currentLocale = i18n.language;
 
   const handleHamburgerClick = () => {
     setMenuOpened(!menuOpened);
   };
 
-  const handleChange = (e: any) => {
-    const newLocale = e.target.value;
+  const handleLanguageChange = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const newLocale: string = (e.currentTarget as HTMLButtonElement).value;
 
     // set cookie for next-i18n-router
     const days = 30;
     const date = new Date();
     date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
     const expires = date.toUTCString();
+    // eslint-disable-next-line unicorn/no-document-cookie
     document.cookie = `NEXT_LOCALE=${newLocale};expires=${expires};path=/`;
 
     // redirect to the new locale path
     if (
+      // eslint-disable-next-line operator-linebreak
       currentLocale === i18nConfig.defaultLocale &&
       !i18nConfig.prefixDefault
     ) {
@@ -56,6 +53,11 @@ const Navbar = () => {
     }
 
     router.refresh();
+  };
+
+  const handleNavButtonClick = (target: string) => {
+    router.push(`/${currentLocale}/${target}`);
+    setMenuOpened(false);
   };
 
   return (
@@ -71,11 +73,12 @@ const Navbar = () => {
             <ul className={styles.links}>
               {navLinks.map((link) => (
                 <li key={link.target}>
-                  <Link href={`/${currentLocale}/about-me`}>
-                    <button data-target={link.target} type="button">
-                      {link.name}
-                    </button>
-                  </Link>
+                  <button
+                    onClick={() => handleNavButtonClick(link.target)}
+                    type="button"
+                  >
+                    {t(`navbar:${link.name}`)}
+                  </button>
                 </li>
               ))}
             </ul>
@@ -84,17 +87,25 @@ const Navbar = () => {
         <div className={styles.navbarSide}>
           <div className={styles.languageSwitcherDesktop}>
             <p>{currentLocale === 'en' ? 'EN' : 'CZ'}</p>
-            <button onClick={handleChange} type="button" value="cs">
+            <button
+              onClick={(e) => handleLanguageChange(e)}
+              type="button"
+              value="cs"
+            >
               CZ
             </button>
-            <button onClick={handleChange} type="button" value="en">
+            <button
+              onClick={(e) => handleLanguageChange(e)}
+              type="button"
+              value="en"
+            >
               EN
             </button>
           </div>
           <div className={styles.languageSwitcherMobile}>
             <button
               className={currentLocale === 'cs' ? styles.active : ''}
-              onClick={handleChange}
+              onClick={(e) => handleLanguageChange(e)}
               type="button"
               value="cs"
             >
@@ -102,7 +113,7 @@ const Navbar = () => {
             </button>
             <button
               className={currentLocale === 'en' ? styles.active : ''}
-              onClick={handleChange}
+              onClick={(e) => handleLanguageChange(e)}
               type="button"
               value="en"
             >

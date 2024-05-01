@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { createInstance } from 'i18next';
@@ -10,10 +7,10 @@ import { initReactI18next } from 'react-i18next/initReactI18next';
 import { i18nConfig } from '@/i18nConfig';
 
 export default async function initTranslations(
-  locale: any,
-  namespaces: any[],
-  i18nInstance?: any,
-  resources?: any,
+  locale: string,
+  namespaces: string[],
+  i18nInstance?: ReturnType<typeof createInstance>,
+  resources?: Record<string, Record<string, any>>,
 ) {
   i18nInstance = i18nInstance || createInstance();
 
@@ -22,7 +19,7 @@ export default async function initTranslations(
   if (!resources) {
     i18nInstance.use(
       resourcesToBackend(
-        (language: any, namespace: any) =>
+        (language: string, namespace: string) =>
           import(`@/locales/${language}/${namespace}.json`),
       ),
     );

@@ -1,6 +1,6 @@
 export const navLinks = [
-  { name: 'Projects', target: 'home' },
-  { name: 'About', target: 'about' },
-  { name: 'Skills', target: 'music' },
-  { name: 'Contact', target: 'gallery' },
+  { name: 'projects', target: '/' },
+  { name: 'about', target: 'about' },
+  { name: 'skills', target: 'music' },
+  { name: 'contact', target: 'gallery' },
 ];

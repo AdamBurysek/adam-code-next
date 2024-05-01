@@ -1,17 +1,17 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable unused-imports/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
 import initTranslations from '../i18n';
 
 import styles from './page.module.css';
 
+type LocaleParams = {
+  params: {
+    locale: string;
+  };
+};
+
 const i18namespaces = ['home'];
 
-const Home = async ({ params: { locale } }: any) => {
-  const { t, resources } = await initTranslations(locale, i18namespaces);
+const Home = async ({ params: { locale } }: LocaleParams) => {
+  const { t } = await initTranslations(locale, i18namespaces);
   return (
     <>
       {/* <Navbar /> */}
@@ -22,9 +22,17 @@ const Home = async ({ params: { locale } }: any) => {
             {t('header-start')}
             <span className={styles.smallText}> aka Adam Code</span>
             <br />
-            <span className="gradient">{t('header-end')}</span>
+            <span className="text-gradient">{t('header-end')}</span>
           </h1>
           <p className={styles.heroParagraph}>{t('desc')}</p>
+          <div className={styles.btnContainer}>
+            <button className="btn button-gradient" type="button">
+              My Projects
+            </button>
+            <button className="btn btn-basic" type="button">
+              Contact
+            </button>
+          </div>
         </div>
       </main>
     </>
