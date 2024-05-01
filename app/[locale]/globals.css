@@ -22,7 +22,7 @@
   --color-grey-eight: #505158;
   --color-grey-nine: #3d3d43;
   --color-grey-ten: #292a2e;
-  --fs-heading1: clamp(2rem, 1.2752rem + 3.624vw, 3.812rem);
+  --fs-heading1: clamp(1.625rem, 1.0001rem + 3.1243vw, 3.812rem);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -155,7 +155,7 @@ h1 {
 }
 
 .text-gradient {
-  padding-left: 115px;
+  padding-left: 10vw;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   color: transparent;
@@ -165,6 +165,12 @@ h1 {
     var(--color-primary-light) 50%,
     var(--color-purple) 100%
   );
+}
+
+@media screen and (min-width: 880px) {
+  .text-gradient {
+    padding-left: 115px;
+  }
 }
 
 .btn {
