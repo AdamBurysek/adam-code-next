@@ -26,15 +26,16 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
         <p className={styles.heroParagraph}>{t('desc')}</p>
         <div className={styles.btnContainer}>
           <button className="btn button-gradient" type="button">
-            My Projects
+            {t('projects-button')}
           </button>
           <button className="btn btn-basic" type="button">
-            Contact
+            {t('contact-button')}
           </button>
         </div>
       </div>
-      <h3>Technology i use</h3>
+      <h3>{t('technology-header')}</h3>
       <TechnologyAnimation />
+      <h2>{t('projects-header')}</h2>
     </>
   );
 };

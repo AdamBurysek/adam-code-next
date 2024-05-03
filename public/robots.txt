@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /cs
+Disallow:
+
+Allow: /cs
