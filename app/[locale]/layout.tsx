@@ -37,7 +37,7 @@ const RootLayout = async ({
           resources={resources}
         >
           <Navbar />
-          {children}
+          <main className="main">{children}</main>
         </TranslationsProvider>
       </body>
     </html>

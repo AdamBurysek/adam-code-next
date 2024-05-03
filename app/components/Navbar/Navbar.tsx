@@ -20,7 +20,6 @@ const Navbar = () => {
 
   const router = useRouter();
   const currentPathname = usePathname();
-  // const { i18n } = useTranslation();
   const currentLocale = i18n.language;
 
   const handleHamburgerClick = () => {

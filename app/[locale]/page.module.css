@@ -1,14 +1,4 @@
-.main {
-  display: flex;
-  justify-content: center;
-  padding: 6rem 1rem;
-  min-height: 100vh;
-}
-
 @media screen and (min-width: 880px) {
-  .main {
-    padding: 6rem;
-  }
   .heroParagraph {
     padding-left: 115px;
   }
