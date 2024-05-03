@@ -1,6 +1,6 @@
 @media screen and (min-width: 880px) {
   .heroParagraph {
-    padding-left: 115px;
+    margin-left: 115px;
   }
   .btnContainer {
     padding: 2rem 0 2rem 115px;
@@ -8,17 +8,24 @@
 }
 
 .smallText {
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: -0.05em;
+}
+
+@media screen and (max-width: 340px) {
+  .smallText {
+    font-size: 0.625rem;
+  }
 }
 
 .heroParagraph {
   letter-spacing: -0.05em;
   color: var(--color-grey-nine);
-  max-width: 700px;
+  max-width: 480px;
   font-weight: 500;
-  padding-left: 10vw;
-  padding-top: 15px;
+  margin-left: 10vw;
+  margin-top: 15px;
+  background: var(--color-background);
 }
 
 .container {
@@ -34,12 +41,12 @@
   padding: 40px;
   background-image: linear-gradient(
       to right,
-      rgba(var(--color-grey-rgb), 0.1) 1px,
+      rgba(var(--color-grey-rgb), 0.1) 0.05px,
       transparent 1px
     ),
     linear-gradient(
       to bottom,
-      rgba(var(--color-grey-rgb), 0.1) 1px,
+      rgba(var(--color-grey-rgb), 0.1) 0.05px,
       transparent 1px
     );
   background-size: 80px 32px;
