@@ -1,0 +1,46 @@
+.container {
+  width: calc(100% - 1rem);
+  max-width: 950px;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 5rem;
+  mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+}
+
+.wrapper {
+  position: absolute;
+  display: flex;
+}
+
+.svgWrapper {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.container section {
+  display: flex;
+  animation: swipe var(--logos-speed) linear infinite backwards;
+}
+
+.svgFill {
+  fill: var(--color-grey-three);
+}
+.svgStroke {
+  stroke: var(--color-grey-three);
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
