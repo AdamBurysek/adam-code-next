@@ -23,6 +23,13 @@
   margin: 0 30px;
 }
 
+@media screen and (max-width: 500px) {
+  .svgWrapper {
+    margin: 0 15px;
+    scale: 0.8;
+  }
+}
+
 .container section {
   display: flex;
   animation: swipe var(--logos-speed) linear infinite backwards;

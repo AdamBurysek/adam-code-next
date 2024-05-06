@@ -10,40 +10,24 @@ import {
   ReactLogo,
 } from './TechnologyIcons';
 
+const id = [1, 2, 3];
+
 const TechnologyAnimation = () => (
   <div className={styles.container}>
     <div className={styles.inner}>
       <div className={styles.wrapper}>
-        <section>
-          <Figma />
-          <MongoDb />
-          <Express />
-          <ReactLogo />
-          <Node />
-          <Electron />
-          <GitHub />
-          <Python />
-        </section>
-        <section>
-          <Figma />
-          <MongoDb />
-          <Express />
-          <ReactLogo />
-          <Node />
-          <Electron />
-          <GitHub />
-          <Python />
-        </section>
-        <section>
-          <Figma />
-          <MongoDb />
-          <Express />
-          <ReactLogo />
-          <Node />
-          <Electron />
-          <GitHub />
-          <Python />
-        </section>
+        {id.map((item) => (
+          <section key={item}>
+            <Figma />
+            <MongoDb />
+            <Express />
+            <ReactLogo />
+            <Node />
+            <Electron />
+            <GitHub />
+            <Python />
+          </section>
+        ))}
       </div>
     </div>
   </div>

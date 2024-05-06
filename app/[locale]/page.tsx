@@ -1,3 +1,6 @@
+import Link from 'next/link';
+
+import MiniLogosBox from '../components/MiniLogos/MiniLogosBox';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
 import initTranslations from '../i18n';
 
@@ -25,17 +28,22 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
         </h1>
         <p className={styles.heroParagraph}>{t('desc')}</p>
         <div className={styles.btnContainer}>
-          <button className="btn button-gradient" type="button">
-            {t('projects-button')}
-          </button>
-          <button className="btn btn-basic" type="button">
-            {t('contact-button')}
-          </button>
+          <Link href="/about">
+            <button className="btn button-gradient" type="button">
+              {t('projects-button')}
+            </button>
+          </Link>
+          <Link href="/contact">
+            <button className="btn btn-basic" type="button">
+              {t('contact-button')}
+            </button>
+          </Link>
         </div>
       </div>
-      <h3>{t('technology-header')}</h3>
+      <div className={styles.technologyHeader}>{t('technology-header')}</div>
       <TechnologyAnimation />
       <h2>{t('projects-header')}</h2>
+      <MiniLogosBox show={['Python', 'Html', 'Mongo']} />
     </>
   );
 };
