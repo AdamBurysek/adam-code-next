@@ -58,34 +58,7 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
                 alt="Adam Planet Webpage"
                 className={styles.projectImage}
                 placeholder="blur"
-                src={AdamPlanetImage}
-              />
-            </Link>
-            <MiniLogosBox show={['Next', 'TypeScript', 'ThreeJs']} />
-          </div>
-          <div>
-            <Link href="/adamplanet">
-              <div className={styles.projectHeader}>
-                <h3>Adam Planet</h3>
-                <p>2024</p>
-              </div>
-              <Image
-                alt="Adam Planet Webpage"
-                className={styles.projectImage}
-                src={AdamPlanetImage}
-              />
-            </Link>
-            <MiniLogosBox show={['Next', 'TypeScript', 'ThreeJs']} />
-          </div>
-          <div>
-            <Link href="/adamplanet">
-              <div className={styles.projectHeader}>
-                <h3>Adam Planet</h3>
-                <p>2024</p>
-              </div>
-              <Image
-                alt="Adam Planet Webpage"
-                className={styles.projectImage}
+                priority
                 src={AdamPlanetImage}
               />
             </Link>
