@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
+import AdamPlanetImage from '../../public/projects-images-home/adam-planet.png';
 import MiniLogosBox from '../components/MiniLogos/MiniLogosBox';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
 import initTranslations from '../i18n';
@@ -18,6 +20,7 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
   const { t } = await initTranslations(locale, i18namespaces);
   return (
     <>
+      <div className={styles.dummyHeroDiv} id="home" />
       <div className={styles.container}>
         <div className={styles.gridBackground} />
         <h1>
@@ -42,8 +45,54 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
       </div>
       <div className={styles.technologyHeader}>{t('technology-header')}</div>
       <TechnologyAnimation />
-      <h2>{t('projects-header')}</h2>
-      <MiniLogosBox show={['Python', 'Html', 'Mongo']} />
+      <section id="myprojects">
+        <h2>{t('projects-header')}</h2>
+        <div className={styles.projectsContainer} id="myprojects">
+          <div>
+            <Link href="/adamplanet">
+              <div className={styles.projectHeader}>
+                <h3>Adam Planet</h3>
+                <p className={styles.projectDate}>2024</p>
+              </div>
+              <Image
+                alt="Adam Planet Webpage"
+                className={styles.projectImage}
+                placeholder="blur"
+                src={AdamPlanetImage}
+              />
+            </Link>
+            <MiniLogosBox show={['Next', 'TypeScript', 'ThreeJs']} />
+          </div>
+          <div>
+            <Link href="/adamplanet">
+              <div className={styles.projectHeader}>
+                <h3>Adam Planet</h3>
+                <p>2024</p>
+              </div>
+              <Image
+                alt="Adam Planet Webpage"
+                className={styles.projectImage}
+                src={AdamPlanetImage}
+              />
+            </Link>
+            <MiniLogosBox show={['Next', 'TypeScript', 'ThreeJs']} />
+          </div>
+          <div>
+            <Link href="/adamplanet">
+              <div className={styles.projectHeader}>
+                <h3>Adam Planet</h3>
+                <p>2024</p>
+              </div>
+              <Image
+                alt="Adam Planet Webpage"
+                className={styles.projectImage}
+                src={AdamPlanetImage}
+              />
+            </Link>
+            <MiniLogosBox show={['Next', 'TypeScript', 'ThreeJs']} />
+          </div>
+        </div>
+      </section>
     </>
   );
 };

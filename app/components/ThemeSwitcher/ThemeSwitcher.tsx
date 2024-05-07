@@ -71,6 +71,13 @@ const getCookie = (name: string) => {
 
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState<string | null>(null);
+  const [duration, setDuration] = useState(0);
+
+  const handleThemeButtonClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    setDuration(1);
+    setTheme(e.currentTarget.id);
+    setTimeout(() => setDuration(0), 100);
+  };
 
   useEffect(() => {
     const initialTheme = getCookie('theme') || 'system';
@@ -95,7 +102,8 @@ const ThemeSwitcher = () => {
       <button
         aria-label="Theme Mode Light"
         className={styles.button}
-        onClick={() => setTheme('light')}
+        id="light"
+        onClick={handleThemeButtonClick}
         type="button"
       >
         <Light />
@@ -103,7 +111,8 @@ const ThemeSwitcher = () => {
       <button
         aria-label="Theme Mode System"
         className={styles.button}
-        onClick={() => setTheme('system')}
+        id="system"
+        onClick={handleThemeButtonClick}
         type="button"
       >
         <System />
@@ -111,7 +120,8 @@ const ThemeSwitcher = () => {
       <button
         aria-label="Theme Mode Dark"
         className={styles.button}
-        onClick={() => setTheme('dark')}
+        id="dark"
+        onClick={handleThemeButtonClick}
         type="button"
       >
         <Dark />
@@ -119,7 +129,7 @@ const ThemeSwitcher = () => {
       <motion.div
         className={styles.slider}
         layout
-        transition={{ duration: 1, type: 'spring' }}
+        transition={{ duration, type: 'spring' }}
       />
     </div>
   );

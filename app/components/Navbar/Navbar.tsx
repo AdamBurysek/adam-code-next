@@ -63,11 +63,16 @@ const Navbar = () => {
     <header className={`${styles.navbar} ${menuOpened ? styles.menuOpen : ''}`}>
       <div className={styles.container}>
         <div className={styles.navbarSide}>
-          <button aria-label="Home Button" type="button">
+          <button
+            aria-label="Home Button"
+            onClick={() => handleNavButtonClick('/#home')}
+            type="button"
+          >
             <span className={styles.logo}>
               <AdamCodeLogo />
             </span>
           </button>
+
           <nav>
             <ul className={styles.links}>
               {navLinks.map((link) => (
