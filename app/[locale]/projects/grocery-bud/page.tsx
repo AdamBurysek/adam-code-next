@@ -5,7 +5,7 @@ import ProjectLogosBox from '@/app/components/MiniLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
 
-import AdamPlanetOldImage from '../../../../public/projects-images-home/adam-planet-v1.png';
+import GroceryBudImage from '../../../../public/projects/grocery-bud/grocery-bud.gif';
 
 import styles from './page.module.css';
 
@@ -15,7 +15,7 @@ type LocaleParams = {
   };
 };
 
-const i18namespaces = ['project-adam-planet-v1', 'global'];
+const i18namespaces = ['project-grocery-bud', 'global'];
 
 const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
   const { t } = await initTranslations(locale, i18namespaces);
@@ -25,9 +25,8 @@ const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
         <Image
           alt="Adam"
           className={styles.projectImage}
-          placeholder="blur"
           priority
-          src={AdamPlanetOldImage}
+          src={GroceryBudImage}
         />
         <ProjectLogosBox show={['Html', 'Css', 'JavaScript']} />
       </div>
@@ -38,7 +37,7 @@ const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
         <div className={styles.buttonBox}>
           <a
             className={styles.webLink}
-            href="https://www.adamplanet.cz/ostatniweby/adamplanetold/"
+            href="https://adamplanet.cz/ostatniweby/grocery/"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -46,7 +45,11 @@ const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
           </a>
         </div>
       </div>
-      <ProjectNavbar locale={locale} nextLink="/projects/grocery-bud" />
+      <ProjectNavbar
+        locale={locale}
+        nextLink="/projects/adam-planet-v1"
+        prevLink="/projects/adam-planet-v1"
+      />
     </div>
   );
 };

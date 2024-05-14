@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import AdamCodeV2 from '../../public/projects-images-home/adam-code-v2.png';
-import AdamPlanetOld from '../../public/projects-images-home/adam-planet-v1.png';
+import AdamPlanetOldImage from '../../public/projects-images-home/adam-planet-v1.png';
 import AdamPlanetImage from '../../public/projects-images-home/adam-planet.png';
 import GroceryBud from '../../public/projects-images-home/grocery-bud.png';
 import IdealCity from '../../public/projects-images-home/ideal-city.png';
@@ -36,7 +36,9 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
           {t('header-start')}
           <span className={styles.smallText}> aka Adam Code</span>
           <br />
-          <span className="text-gradient">{t('header-end')}</span>
+          <span className="text-gradient text-with-padding">
+            {t('header-end')}
+          </span>
         </h1>
         <p className={styles.heroParagraph}>{t('desc')}</p>
         <div className={styles.btnContainer}>
@@ -208,7 +210,7 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
           {/* PROJECT END */}
           {/* PROJECT START */}
           <div>
-            <Link href="/adamplanet">
+            <Link href="/projects/grocery-bud">
               <div className={styles.projectHeader}>
                 <h3>{t('project-grocery')}</h3>
                 <p className={styles.projectDate}>2022</p>
@@ -236,7 +238,7 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
                 className={styles.projectImage}
                 loading="eager"
                 placeholder="blur"
-                src={AdamPlanetOld}
+                src={AdamPlanetOldImage}
               />
             </Link>
             <MiniLogosBox show={['Html', 'Css', 'JavaScript']} />

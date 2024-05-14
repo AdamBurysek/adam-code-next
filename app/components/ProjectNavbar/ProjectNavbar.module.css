@@ -1,0 +1,38 @@
+.projectNavContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+
+.prevProject,
+.nextProject {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.prevProject p,
+.nextProject p {
+  padding: 0 1rem;
+}
+
+.prevProject:hover svg,
+.nextProject:hover svg {
+  scale: 1.1;
+}
+
+.prevProject:hover p,
+.nextProject:hover p {
+  color: var(--color-primary);
+}
+
+.prevProject svg,
+.nextProject svg {
+  transition: 0.3s;
+}
+
+.nextProject svg {
+  rotate: 180deg;
+}
