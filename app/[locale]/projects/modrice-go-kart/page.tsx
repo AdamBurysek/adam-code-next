@@ -5,7 +5,7 @@ import ProjectLogosBox from '@/app/components/MiniLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
 
-import GroceryBudImage from '../../../../public/projects/grocery-bud/grocery-bud.gif';
+import Modrice from '../../../../public/projects-images-home/modrice.png';
 
 import styles from './page.module.css';
 
@@ -15,7 +15,7 @@ type LocaleParams = {
   };
 };
 
-const i18namespaces = ['project-grocery-bud', 'global'];
+const i18namespaces = ['project-modrice-go-kart', 'global'];
 
 const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
   const { t } = await initTranslations(locale, i18namespaces);
@@ -25,8 +25,9 @@ const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
         <Image
           alt="Adam"
           className={styles.projectImage}
+          placeholder="blur"
           priority
-          src={GroceryBudImage}
+          src={Modrice}
         />
         <ProjectLogosBox show={['Html', 'Css', 'JavaScript']} />
       </div>
@@ -34,11 +35,10 @@ const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
         <h1 className="text-gradient">{t('project-header')}</h1>
         <p className={styles.headerInfo}>{t('header-info')}</p>
         <p className={styles.projectDesc}>{t('project-desc')}</p>
-        <p className={styles.projectDesc}>{t('project-desc-two')}</p>
         <div className={styles.buttonBox}>
           <a
             className={styles.webLink}
-            href="https://adamplanet.cz/ostatniweby/grocery/"
+            href="https://www.adamplanet.cz/ostatniweby/adamplanetold/"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -46,11 +46,7 @@ const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
           </a>
         </div>
       </div>
-      <ProjectNavbar
-        locale={locale}
-        nextLink="/projects/adam-planet-v1"
-        prevLink="/projects/adam-planet-v1"
-      />
+      <ProjectNavbar locale={locale} nextLink="/projects/grocery-bud" />
     </div>
   );
 };

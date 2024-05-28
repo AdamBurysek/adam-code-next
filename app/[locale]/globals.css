@@ -178,6 +178,16 @@ h3 {
   padding-right: 10px;
 }
 
+h4 {
+  font-size: var(--fs-heading4);
+  letter-spacing: -0.05em;
+  color: var(--color-grey-eight);
+}
+
+.center-align {
+  text-align: center;
+}
+
 .text-gradient {
   -webkit-background-clip: text !important;
   background-clip: text !important;

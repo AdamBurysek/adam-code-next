@@ -1,5 +1,6 @@
 {
   "project-header": "Nákupní lístek",
   "header-info": "Klasická začátečnická aplikace",
-  "project-desc": "BenCham, a politico-economic commerce company, hosted a charity ball to promote water awareness for Thirst. Thirst provides positive, accurate, and content about how to properly handle water. I was the lead designer in charge of the overall branding design and the project’s branding materials used and presented at the ball including floor banners, stage and photo backdrops, a menu, name tags, invitation cards, posters, and an official event page."
+  "project-desc": "Po zvládnutí základů HTML a CSS jsem se pustil do studia JavaScriptu. Napsal jsem přibližně 30 malých programů, které se zaměřovaly na různé úlohy, jako je počítání, filtrování, scrollování, práce s časem, audiem a videem. Dále jsem se věnoval implementaci základních funkcí používaných na frontendu, jako jsou navbar, modal, carousel, accordion a další. Ze všech projektů jsem tento vyhodnotil jako nejzajímavější a nejsložitější, a rozhodl jsem se ho sdílet. Navíc je to moje první aplikace, kde jsem pracoval s ukládáním dat, která se ukládají do local storage.",
+  "project-desc-two": "Nezapomeňte si tedy nákupní lístek po použití smazat, jinak vám data zůstanou v local storage. 😄"
 }

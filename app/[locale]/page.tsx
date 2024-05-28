@@ -10,7 +10,6 @@ import MetalQuiz from '../../public/projects-images-home/metal-quiz.png';
 import Modrice from '../../public/projects-images-home/modrice.png';
 import SeaLevelRise from '../../public/projects-images-home/sea-level-rise.png';
 import TravelingSalesman from '../../public/projects-images-home/traveling-salesman.png';
-import VidaMenu from '../../public/projects-images-home/vida-menu.png';
 import MiniLogosBox from '../components/MiniLogos/MiniLogosBox';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
 import initTranslations from '../i18n';
@@ -158,24 +157,6 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
           <div>
             <Link href="/adamplanet">
               <div className={styles.projectHeader}>
-                <h3>{t('project-vida-menu')}</h3>
-                <p className={styles.projectDate}>2023</p>
-              </div>
-              <Image
-                alt={t('project-vida-menu')}
-                className={styles.projectImage}
-                loading="eager"
-                placeholder="blur"
-                src={VidaMenu}
-              />
-            </Link>
-            <MiniLogosBox show={['React', 'TypeScript', 'Electron', 'Vite']} />
-          </div>
-          {/* PROJECT END */}
-          {/* PROJECT START */}
-          <div>
-            <Link href="/adamplanet">
-              <div className={styles.projectHeader}>
                 <h3>{t('project-metal-quiz')}</h3>
                 <p className={styles.projectDate}>2023</p>
               </div>
@@ -192,7 +173,7 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
           {/* PROJECT END */}
           {/* PROJECT START */}
           <div>
-            <Link href="/adamplanet">
+            <Link href="/projects/modrice-go-kart">
               <div className={styles.projectHeader}>
                 <h3>{t('project-modrice')}</h3>
                 <p className={styles.projectDate}>2023</p>

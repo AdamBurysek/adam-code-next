@@ -1,0 +1,37 @@
+.container {
+  width: var(--max-width);
+}
+
+.topContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 500px;
+}
+
+.sideContainer {
+  width: 50%;
+  align-content: center;
+}
+
+.sideContainer p {
+  padding-bottom: 100px;
+}
+
+.container h3 {
+  padding-top: 1rem;
+}
+.container h4 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.bottomContainer {
+  padding-left: 10rem;
+}
+
+.bottomContainer p {
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  max-width: 500px;
+}
