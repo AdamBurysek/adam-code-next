@@ -27,10 +27,10 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
             distorzi a naivně jsem věřil, že ten 16. plugin bude ten pravý.
             Pravda je, že stačí dobře ovládat jeden, abyste zvládli většinu
             práce. Stejný přístup uplatňuji i v programování. Specializuji se na
-            frontend a React, ale mám i základní znalosti backendu. To mi
-            umožňuje chápat celkový koncept programování a vytvářet jednoduché
-            aplikace kompletně. Jsem tedy schopný pracovat v týmu, ale i
-            samostatně.
+            frontend a knihovnu React, ale mám i základní znalosti backendu. To
+            mi umožňuje chápat celkový koncept programování a vytvářet
+            jednoduché aplikace kompletně. Jsem tedy schopný pracovat v týmu,
+            ale i samostatně.
           </p>
         </div>
         <div className={styles.sideContainer}>
