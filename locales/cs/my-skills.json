@@ -1,1 +1,26 @@
-{ "button": "Zadní", "header": "Programování je umění kompromisu" }
+{
+  "header": "Programování je umění kompromisu",
+  "second-header": "Nesnažím se umět vše",
+  "text": "V roce 2014 jsem začal s hudební produkcí. Zpočátku jsem dělal mnoho začátečnických chyb. Používal jsem například 15 různých pluginů na distorzi a naivně jsem věřil, že ten 16. plugin bude ten pravý a lepší než ostatní. Pravda je, že stačí dobře ovládat jeden, abyste zvládli většinu práce. Stejný přístup uplatňuji i v programování. Specializuji se na frontend a knihovnu React, ale mám i základní znalosti backendu. To mi umožňuje chápat celkový koncept programování a vytvářet jednoduché aplikace kompletně. Jsem tedy schopný pracovat v týmu, ale i samostatně.",
+  "ui-header": "UI a Grafika",
+  "figma": "Mám za sebou rozsáhlý kurz na Figmu, takže ji znám opravdu dobře.",
+  "photoshop": "Používal jsem v minulosti. Díky drahým placeným plánům dnes již nepoužívam.",
+  "procreate": "Levná a plně dostačující náhrada Photoshopu. Používám nejčastěji ke kreslení a úpravě obrázků.",
+  "html": "Prostě základ, který je potřeba umět.",
+  "react": "React jsem si vybral díky jeho rozsáhle komunitě, ekosystému a jednoduchosti.",
+  "next": "Webové aplikace dnes vytvářím zásadně pomocí Next.js. Jednoduchost a výkon Next.js mě jednoduše ohromily.",
+  "react-native": "Pokud člověk umí React, není už tak těžké zvládnout i React-Native.",
+  "electron": "Když je potřeba desktopovou aplikaci, rozšířím React o Electron.js.",
+  "node": "Znám základy. Hlouběji zatím nebyl důvod jít. Snad se důvod v budoucnu najde.",
+  "express": "Jednoduchý framework pro Node.js, který dokáže usnadnit život.",
+  "python": "Na Pythonu jsem začínal. Rád ho používám.",
+  "db-header": "Databáze",
+  "mongo": "MongoDB mám velmi rád, zejména díky možnosti vytvářet serverless backend.",
+  "drizzle": "Skvělé řešení pro Next.js.",
+  "npm-header": "Npm knihovny",
+  "npm": "Mám zkušenosti s tolika npm knihovnami, že jejich výčet by byl příliš dlouhý. Díky těmto zkušenostem se dokážu rychle naučit pracovat s novou knihovnou, kterou ještě neznám.",
+  "other-header": "Ostatní",
+  "git": "Klíčový nástroj pro verzování, spolupráci a správu kódu.",
+  "postman": "Usnadňují mi život při testování a práci s API.",
+  "docker": "Udělal jsem si kurz na docker, aby mě neznalost neomezovala v týmové spolupráci. V budoucnu budu snad docker používat více."
+}

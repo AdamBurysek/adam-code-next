@@ -1,1 +1,26 @@
-{ "button": "Zadní", "header": "Programming is the art of trade-off" }
+{
+  "header": "Programming is the art of trade-off",
+  "second-header": "I'm Not Trying to Master Everything",
+  "text": "In 2014, I started with music production. Initially, I made many beginner mistakes. For example, I used 15 different distortion plugins, naively believing that the 16th one would be the right and better one. The truth is, mastering just one is enough to handle most tasks. I apply the same approach to programming. I specialize in frontend and the React library, but I also have basic knowledge of backend. This allows me to understand the overall concept of programming and create simple applications completely. I can therefore work both in a team and independently.",
+  "ui-header": "UI and Graphics",
+  "figma": "I have completed an extensive course on Figma, so I know it very well.",
+  "photoshop": "I used it in the past. Due to the expensive paid plans, I no longer use it today.",
+  "procreate": "A cheap and fully sufficient replacement for Photoshop. I use it most often for drawing and editing images.",
+  "html": "Simply a fundamental skill that needs to be mastered.",
+  "react": "I chose React because of its large community, ecosystem, and simplicity.",
+  "next": "Today, I primarily create web applications using Next.js. The simplicity and performance of Next.js have simply amazed me.",
+  "react-native": "If you know React, it's not that difficult to master React Native.",
+  "electron": "When a desktop application is needed, I extend React with Electron.js.",
+  "node": "I know the basics. So far, there hasn't been a reason to go deeper. Hopefully, a reason will arise in the future.",
+  "express": "A simple framework for Node.js that can make life easier.",
+  "python": "I started with Python. I like using it.",
+  "db-header": "Databases",
+  "mongo": "I really like MongoDB, especially for the ability to create a serverless backend.",
+  "drizzle": "A great solution for Next.js.",
+  "npm-header": "Npm Libraries",
+  "npm": "I have experience with so many npm libraries that listing them would be too long. Thanks to these experiences, I can quickly learn to work with a new library that I don't know yet.",
+  "other-header": "Others",
+  "git": "A key tool for versioning, collaboration, and code management.",
+  "postman": "Makes my life easier when testing and working with APIs.",
+  "docker": "I took a Docker course so that my lack of knowledge wouldn't limit me in team collaboration. Hopefully, I will use Docker more in the future."
+}

@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.topContainer {
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    'image'
+    'header'
+    'about';
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 1rem;
+}
+
+.header {
+  padding: 0 0.5rem;
+  grid-area: header;
+}
+
+.about {
+  grid-area: about;
+}
+
+.imageBox {
+  grid-area: image;
+}
+
+.about p {
+  padding: 2rem 1rem 0 1rem;
+}
+
+.adamImage {
+  width: calc(100vw - 10rem);
+  height: auto;
+  max-width: 350px;
+}
+
+.bottomContainer {
+  padding: 2rem 0 0 1rem;
+}
+
+.bottomContainer p:first-child {
+  font-weight: 700;
+  padding-bottom: 0.3rem;
+}
+
+.bottomContainer p:not(:first-child) {
+  padding-left: 1rem;
+}
+
+@media (min-width: 880px) {
+  .topContainer {
+    grid-template-areas:
+      'header header'
+      'about image';
+    grid-template-columns: 1fr 1fr;
+  }
+}

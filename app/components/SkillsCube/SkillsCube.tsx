@@ -25,31 +25,27 @@ const Cube = () => {
         '/cube-images/python-logo.svg',
       ];
 
-      try {
-        const newTextures = await Promise.all(
-          svgs.map(async (svgUrl) => {
-            const img = new Image();
-            img.src = svgUrl;
-            await img.decode();
+      const newTextures = await Promise.all(
+        svgs.map(async (svgUrl) => {
+          const img = new Image();
+          img.src = svgUrl;
+          await img.decode();
 
-            const canvas = document.createElement('canvas');
-            canvas.width = img.width + 200;
-            canvas.height = img.height + 200;
-            const ctx = canvas.getContext('2d');
+          const canvas = document.createElement('canvas');
+          canvas.width = img.width + 200;
+          canvas.height = img.height + 200;
+          const ctx = canvas.getContext('2d');
 
-            ctx!.fillStyle = 'white';
-            ctx!.fillRect(0, 0, canvas.width, canvas.height);
+          ctx!.fillStyle = 'white';
+          ctx!.fillRect(0, 0, canvas.width, canvas.height);
 
-            ctx!.drawImage(img, 100, 100);
+          ctx!.drawImage(img, 100, 100);
 
-            return new CanvasTexture(canvas);
-          }),
-        );
+          return new CanvasTexture(canvas);
+        }),
+      );
 
-        setTextures(newTextures);
-      } catch {
-        throw new Error('Error loading textures.');
-      }
+      setTextures(newTextures);
     };
 
     // eslint-disable-next-line @typescript-eslint/no-floating-promises
@@ -85,18 +81,7 @@ const Cube = () => {
 
 const SkillsCube = () => (
   <div className={styles.container}>
-    <Canvas
-      onCreated={({ gl }) => {
-        gl.domElement.addEventListener(
-          'webglcontextlost',
-          (event) => {
-            event.preventDefault();
-            throw new Error('WebGL context lost. Please reload the page.');
-          },
-          false,
-        );
-      }}
-    >
+    <Canvas>
       <OrbitControls enablePan={false} enableZoom={false} />
       <ambientLight intensity={0.5} />
       <directionalLight intensity={2} position={[1, 1, 1]} />

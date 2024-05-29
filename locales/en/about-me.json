@@ -1,1 +1,15 @@
-{"button":"Back","header":"Simply, I'm Adam"}
+{
+  "header": "My Tech Journey",
+  "paragraph-one": "Since childhood, I have understood how programs work. A testament to this was when, at the age of 12, I managed to hack into password-protected computers without anyone showing me how. I loved computer games, but as a child, I couldn't afford them. So, I modified authentication protocols to make the games run. All I needed was a text editor.",
+  "paragraph-two": "I also had a passion for cars and machinery in general. Coming from a family of engineers, I followed in their footsteps. I graduated from a technical high school with a focus on information systems, and then from the Faculty of Mechanical Engineering at VUT in Brno, specializing in automotive and transport engineering.",
+  "paragraph-three": "I am someone who appreciates high-quality and simple products. This is probably why I am a fan of Apple products. I can appreciate their quality choice of materials, technological manufacturing process, and ease of use. Even my grandmother can operate an iPhone. By the way, she has an iPhone 14.",
+  "paragraph-four": "My lifelong challenge is that I constantly need to learn something new, or else I get bored. In 2022, I started learning to program and was immediately captivated. Initially, it was Python, and later I moved on to frontend development. What I love about programming is that there is always something new to learn, and that suits me perfectly.",
+  "find-me-header": "When I'm not coding you can find me ⬇️",
+  "find-me-one": "🚴‍♂️ probably cycling",
+  "find-me-two": "playing bowling 🎳 or table tenis 🏓",
+  "find-me-three": "having ☕ and watching various tutorials",
+  "find-me-four": "making music 🧑‍💻",
+  "find-me-five": "🍲 cooking some delicious food",
+  "find-me-six": "sending friends 🤣 meme's",
+  "find-me-seven": "or just chilling ☀️ 🎧"
+}

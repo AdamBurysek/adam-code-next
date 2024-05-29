@@ -1,1 +1,15 @@
-{"button":"Zadní","header":"Jednoduše, jsem Adam"}
+{
+  "header": "Moje cesta světem technologií",
+  "paragraph-one": "Už od mala jsem chápal, jak programy fungují. Důkazem toho bylo například to, že jsem se jako 12ti leté dítě dokázal nabourat do zaheslovaných počítačů, aniž by mi kdokoliv ukázal jak na to. Měl jsem rád počítačové hry, ale jako dítě jsem na ně neměl peníze. Upravoval jsem proto autentikační protokoly tak, aby mi hra fungovala. Stačil mi k tomu pouze textový editor.",
+  "paragraph-two": "Měl jsem také rád auta a stroje celkově. Protože pocházím z rodiny strojařů, vydal jsem se i já touto cestou. Vystudoval jsem střední školu strojní se zaměřením na informační systémy a poté strojní fakultu VUT v Brně se zaměřením na automobilní a dopravní inženýrství.",
+  "paragraph-three": "Jsem člověk, který má rád kvalitní a jednoduché produkty. Asi proto jsem fanouškem produktů Apple. Dokážu ocenit jejich kvalitní výběr použitých materiálů, technologický postup výroby a jednoduchost ovládání. Dokonce i moje babička zvládá ovládat iPhone. Mimochodem, má iPhone 14.",
+  "paragraph-four": "Můj celoživotní problém je, že se neustále potřebuji učit něco nového, jinak se začnu nudit. V roce 2022 jsem se začal učit programovat a velmi mě to nadchlo. Zpočátku to byl Python, později jsem přešel na frontend. Na programování se mi líbí to, že se člověk má neustále co učit, a to je něco pro mě.",
+  "find-me-header": "Když zrovna neprogramuji, můžete mě najít jak ⬇️",
+  "find-me-one": "🚴‍♂️ pravděpodobně jezdím na kole",
+  "find-me-two": "hraju bowling 🎳 nebo stolní tenis 🏓",
+  "find-me-three": "piji ☕ a sleduji různé tutoriály",
+  "find-me-four": "tvořím hudbu 🧑‍💻",
+  "find-me-five": "🍲 vařím nějaké chutné jídlo",
+  "find-me-six": "posílám přátelům 🤣 memy",
+  "find-me-seven": "nebo jen tak relaxuji ☀️ 🎧"
+}
