@@ -46,9 +46,9 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
               {t('projects-button')}
             </button>
           </Link>
-          <Link href="/contact">
+          <Link href="/skills">
             <button className="btn btn-basic" type="button">
-              {t('contact-button')}
+              {t('skills-button')}
             </button>
           </Link>
         </div>

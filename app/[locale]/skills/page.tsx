@@ -1,5 +1,6 @@
-import SkillsCube from '@/app/components/SkillsCube/SkillsCube';
+import Image from 'next/image';
 
+import TradeOffImage from '../../../public/trade-off.png';
 import initTranslations from '../../i18n';
 
 import styles from './page.module.css';
@@ -24,9 +25,9 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
           <h2>{t('second-header')}</h2>
           <p>{t('text')}</p>
         </div>
-        <div className={styles.imageBox}>
-          <SkillsCube />
-        </div>
+
+        {/* <SkillsCube /> */}
+        <Image alt="Image" className={styles.topImage} src={TradeOffImage} />
       </div>
       <div className={styles.bottomContainer}>
         <h3>{t('ui-header')}</h3>
