@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import { MotionDiv, MotionSpan } from '@/app/components/Motion/Motion';
+
 import TradeOffImage from '../../../public/trade-off.png';
 import initTranslations from '../../i18n';
 
@@ -21,15 +23,54 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
         <h1 className={`${styles.header} text-gradient center-align`}>
           {t('header')}
         </h1>
-        <div className={styles.text}>
+        <MotionDiv
+          animate={{
+            opacity: 1,
+            x: 0,
+          }}
+          className={styles.text}
+          initial={{
+            opacity: 0,
+            x: -10,
+          }}
+          transition={{ duration: 0.5, easeOut: 0.5 }}
+        >
           <h2>{t('second-header')}</h2>
           <p>{t('text')}</p>
-        </div>
+        </MotionDiv>
 
         {/* <SkillsCube /> */}
-        <Image alt="Image" className={styles.topImage} src={TradeOffImage} />
+        <MotionSpan
+          animate={{
+            opacity: 1,
+            x: 0,
+          }}
+          initial={{
+            opacity: 0,
+            x: 10,
+          }}
+          transition={{ duration: 0.5, easeOut: 0.5 }}
+        >
+          <Image
+            alt="Image"
+            className={styles.topImage}
+            placeholder="blur"
+            src={TradeOffImage}
+          />
+        </MotionSpan>
       </div>
-      <div className={styles.bottomContainer}>
+      <MotionDiv
+        animate={{
+          opacity: 1,
+          y: 0,
+        }}
+        className={styles.bottomContainer}
+        initial={{
+          opacity: 0,
+          y: 10,
+        }}
+        transition={{ duration: 0.5, delay: 0.1, easeOut: 0.5 }}
+      >
         <h3>{t('ui-header')}</h3>
         <h4>Figma</h4>
         <p>{t('figma')}</p>
@@ -69,7 +110,7 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
         <p>{t('postman')}</p>
         <h4>Docker</h4>
         <p>{t('docker')}</p>
-      </div>
+      </MotionDiv>
     </div>
   );
 };

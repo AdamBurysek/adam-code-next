@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import { MotionDiv, MotionSpan } from '@/app/components/Motion/Motion';
+
 import AdamPicture from '../../../public/adam-picture.png';
 import initTranslations from '../../i18n';
 
@@ -21,21 +23,54 @@ const AboutMe = async ({ params: { locale } }: LocaleParams) => {
         <h1 className={`${styles.header} text-gradient center-align`}>
           {t('header')}
         </h1>
-        <div className={styles.about}>
+        <MotionDiv
+          animate={{
+            opacity: 1,
+            x: 0,
+          }}
+          className={styles.about}
+          initial={{
+            opacity: 0,
+            x: -10,
+          }}
+          transition={{ duration: 0.5, easeOut: 0.5 }}
+        >
           <p>{t('paragraph-one')}</p>
           <p>{t('paragraph-two')}</p>
           <p>{t('paragraph-three')}</p>
           <p>{t('paragraph-four')}</p>
-        </div>
-        <div className={styles.imageBox}>
+        </MotionDiv>
+        <MotionSpan
+          animate={{
+            opacity: 1,
+            x: 0,
+          }}
+          initial={{
+            opacity: 0,
+            x: 10,
+          }}
+          transition={{ duration: 0.5, easeOut: 0.5 }}
+        >
           <Image
             alt="Adam Picture"
             className={styles.adamImage}
+            placeholder="blur"
             src={AdamPicture}
           />
-        </div>
+        </MotionSpan>
       </div>
-      <div className={styles.bottomContainer}>
+      <MotionDiv
+        animate={{
+          opacity: 1,
+          y: 0,
+        }}
+        className={styles.bottomContainer}
+        initial={{
+          opacity: 0,
+          y: 10,
+        }}
+        transition={{ duration: 0.5, delay: 0.1, easeOut: 0.5 }}
+      >
         <p>{t('find-me-header')}</p>
         <p>{t('find-me-one')}</p>
         <p>{t('find-me-two')}</p>
@@ -44,7 +79,7 @@ const AboutMe = async ({ params: { locale } }: LocaleParams) => {
         <p>{t('find-me-five')}</p>
         <p>{t('find-me-six')}</p>
         <p>{t('find-me-seven')}</p>
-      </div>
+      </MotionDiv>
     </div>
   );
 };

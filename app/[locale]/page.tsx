@@ -25,6 +25,72 @@ type LocaleParams = {
 
 const i18namespaces = ['home'];
 
+const projects = [
+  {
+    href: '/adamplanet',
+    title: 'project-adam-planet',
+    date: '2024',
+    imageSrc: AdamPlanetImage,
+    logos: ['Next', 'TypeScript', 'ThreeJs'],
+  },
+  {
+    href: '/adamplanet',
+    title: 'project-adam-code',
+    date: '2023',
+    imageSrc: AdamCodeV2,
+    logos: ['React', 'TypeScript', 'Mongo', 'Cloudinary', 'Vite'],
+  },
+  {
+    href: '/adamplanet',
+    title: 'project-sea-level-rise',
+    date: '2023',
+    imageSrc: SeaLevelRise,
+    logos: ['React', 'TypeScript', 'Electron', 'Vite'],
+  },
+  {
+    href: '/adamplanet',
+    title: 'project-ideal-city',
+    date: '2023',
+    imageSrc: IdealCity,
+    logos: ['React', 'TypeScript', 'Electron', 'Vite', 'Mongo'],
+  },
+  {
+    href: '/adamplanet',
+    title: 'project-traveling-salesman',
+    date: '2023',
+    imageSrc: TravelingSalesman,
+    logos: ['React', 'TypeScript', 'Electron', 'Vite'],
+  },
+  {
+    href: '/adamplanet',
+    title: 'project-metal-quiz',
+    date: '2023',
+    imageSrc: MetalQuiz,
+    logos: ['React', 'JavaScript'],
+  },
+  {
+    href: '/projects/modrice-go-kart',
+    title: 'project-modrice',
+    date: '2023',
+    imageSrc: Modrice,
+    logos: ['Html', 'Css', 'JavaScript'],
+  },
+  {
+    href: '/projects/grocery-bud',
+    title: 'project-grocery',
+    date: '2022',
+    imageSrc: GroceryBud,
+    logos: ['Html', 'Css', 'JavaScript'],
+  },
+  {
+    href: '/projects/adam-planet-v1',
+    title: 'project-adam-planet-old',
+    date: '2022',
+    imageSrc: AdamPlanetOldImage,
+    logos: ['Html', 'Css', 'JavaScript'],
+  },
+];
+
 const Home = async ({ params: { locale } }: LocaleParams) => {
   const { t } = await initTranslations(locale, i18namespaces);
 
@@ -105,173 +171,33 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
       <section id="myprojects">
         <h2>{t('projects-header')}</h2>
         <div className={styles.projectsContainer} id="myprojects">
-          {/* PROJECT START */}
-          <div>
-            <Link href="/adamplanet">
-              <div className={styles.projectHeader}>
-                <h3>{t('project-adam-planet')}</h3>
-                <p className={styles.projectDate}>2024</p>
-              </div>
-              <Image
-                alt={t('project-adam-planet')}
-                className={styles.projectImage}
-                // loading="eager"
-                placeholder="blur"
-                priority
-                src={AdamPlanetImage}
-              />
-            </Link>
-            <MiniLogosBox show={['Next', 'TypeScript', 'ThreeJs']} />
-          </div>
-          {/* PROJECT END */}
-          {/* PROJECT START */}
-          <div>
-            <Link href="/adamplanet">
-              <div className={styles.projectHeader}>
-                <h3>{t('project-adam-code')}</h3>
-                <p className={styles.projectDate}>2023</p>
-              </div>
-              <Image
-                alt={t('project-adam-code')}
-                className={styles.projectImage}
-                loading="eager"
-                placeholder="blur"
-                src={AdamCodeV2}
-              />
-            </Link>
-            <MiniLogosBox
-              show={['React', 'TypeScript', 'Mongo', 'Cloudinary', 'Vite']}
-            />
-          </div>
-          {/* PROJECT END */}
-          {/* PROJECT START */}
-          <div>
-            <Link href="/adamplanet">
-              <div className={styles.projectHeader}>
-                <h3>{t('project-sea-level-rise')}</h3>
-                <p className={styles.projectDate}>2023</p>
-              </div>
-              <Image
-                alt={t('project-sea-level-rise')}
-                className={styles.projectImage}
-                loading="eager"
-                placeholder="blur"
-                src={SeaLevelRise}
-              />
-            </Link>
-            <MiniLogosBox show={['React', 'TypeScript', 'Electron', 'Vite']} />
-          </div>
-          {/* PROJECT END */}
-          {/* PROJECT START */}
-          <div>
-            <Link href="/adamplanet">
-              <div className={styles.projectHeader}>
-                <h3>{t('project-ideal-city')}</h3>
-                <p className={styles.projectDate}>2023</p>
-              </div>
-              <Image
-                alt={t('project-ideal-city')}
-                className={styles.projectImage}
-                loading="eager"
-                placeholder="blur"
-                src={IdealCity}
-              />
-            </Link>
-            <MiniLogosBox
-              show={['React', 'TypeScript', 'Electron', 'Vite', 'Mongo']}
-            />
-          </div>
-          {/* PROJECT END */}
-          {/* PROJECT START */}
-          <div>
-            <Link href="/adamplanet">
-              <div className={styles.projectHeader}>
-                <h3>{t('project-traveling-salesman')}</h3>
-                <p className={styles.projectDate}>2023</p>
-              </div>
-              <Image
-                alt={t('project-traveling-salesman')}
-                className={styles.projectImage}
-                loading="eager"
-                placeholder="blur"
-                src={TravelingSalesman}
-              />
-            </Link>
-            <MiniLogosBox show={['React', 'TypeScript', 'Electron', 'Vite']} />
-          </div>
-          {/* PROJECT END */}
-          {/* PROJECT START */}
-          <div>
-            <Link href="/adamplanet">
-              <div className={styles.projectHeader}>
-                <h3>{t('project-metal-quiz')}</h3>
-                <p className={styles.projectDate}>2023</p>
-              </div>
-              <Image
-                alt={t('project-metal-quiz')}
-                className={styles.projectImage}
-                loading="eager"
-                placeholder="blur"
-                src={MetalQuiz}
-              />
-            </Link>
-            <MiniLogosBox show={['React', 'JavaScript']} />
-          </div>
-          {/* PROJECT END */}
-          {/* PROJECT START */}
-          <div>
-            <Link href="/projects/modrice-go-kart">
-              <div className={styles.projectHeader}>
-                <h3>{t('project-modrice')}</h3>
-                <p className={styles.projectDate}>2023</p>
-              </div>
-              <Image
-                alt={t('project-modrice')}
-                className={styles.projectImage}
-                loading="eager"
-                placeholder="blur"
-                src={Modrice}
-              />
-            </Link>
-            <MiniLogosBox show={['Html', 'Css', 'JavaScript']} />
-          </div>
-          {/* PROJECT END */}
-          {/* PROJECT START */}
-          <div>
-            <Link href="/projects/grocery-bud">
-              <div className={styles.projectHeader}>
-                <h3>{t('project-grocery')}</h3>
-                <p className={styles.projectDate}>2022</p>
-              </div>
-              <Image
-                alt={t('project-grocery')}
-                className={styles.projectImage}
-                loading="eager"
-                placeholder="blur"
-                src={GroceryBud}
-              />
-            </Link>
-            <MiniLogosBox show={['Html', 'Css', 'JavaScript']} />
-          </div>
-          {/* PROJECT END */}
-          {/* PROJECT START */}
-          <div>
-            <Link href="/projects/adam-planet-v1">
-              <div className={styles.projectHeader}>
-                <h3>{t('project-adam-planet-old')}</h3>
-                <p className={styles.projectDate}>2022</p>
-              </div>
-              <Image
-                alt={t('project-adam-planet-old')}
-                className={styles.projectImage}
-                loading="eager"
-                placeholder="blur"
-                src={AdamPlanetOldImage}
-              />
-            </Link>
-            <MiniLogosBox show={['Html', 'Css', 'JavaScript']} />
-          </div>
-          {/* PROJECT END */}
+          {projects.map((project, index) => (
+            <MotionDiv
+              key={project.title}
+              animate={{
+                opacity: 1,
+              }}
+              initial={{
+                opacity: 0,
+              }}
+              transition={{ duration: 0.5, delay: index * 0.05, easeOut: 0.5 }}
+            >
+              <Link href={project.href}>
+                <div className={styles.projectHeader}>
+                  <h3>{t(project.title)}</h3>
+                  <p className={styles.projectDate}>{project.date}</p>
+                </div>
+                <Image
+                  alt={t(project.title)}
+                  className={styles.projectImage}
+                  loading="eager"
+                  placeholder="blur"
+                  src={project.imageSrc}
+                />
+              </Link>
+              <MiniLogosBox show={project.logos} />
+            </MotionDiv>
+          ))}
         </div>
       </section>
     </>
