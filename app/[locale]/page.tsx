@@ -11,11 +11,7 @@ import Modrice from '../../public/projects-images-home/modrice.png';
 import SeaLevelRise from '../../public/projects-images-home/sea-level-rise.png';
 import TravelingSalesman from '../../public/projects-images-home/traveling-salesman.png';
 import MiniLogosBox from '../components/MiniLogos/MiniLogosBox';
-import {
-  MotionDiv,
-  MotionHeaderOne,
-  MotionParagraph,
-} from '../components/Motion/Motion';
+import { MotionDiv, MotionParagraph } from '../components/Motion/Motion';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
 import initTranslations from '../i18n';
 
@@ -47,24 +43,14 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
           initial="init"
           variants={grid}
         />
-        <MotionHeaderOne
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          initial={{
-            opacity: 0,
-            y: 5,
-          }}
-          transition={{ duration: 0.5, easeOut: 0.5 }}
-        >
+        <h1>
           {t('header-start')}
           <span className={styles.smallText}> aka Adam Code</span>
           <br />
           <span className="text-gradient text-with-padding">
             {t('header-end')}
           </span>
-        </MotionHeaderOne>
+        </h1>
         <MotionParagraph
           animate={{
             opacity: 1,
