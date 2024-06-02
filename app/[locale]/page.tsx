@@ -11,6 +11,11 @@ import Modrice from '../../public/projects-images-home/modrice.png';
 import SeaLevelRise from '../../public/projects-images-home/sea-level-rise.png';
 import TravelingSalesman from '../../public/projects-images-home/traveling-salesman.png';
 import MiniLogosBox from '../components/MiniLogos/MiniLogosBox';
+import {
+  MotionDiv,
+  MotionHeaderOne,
+  MotionParagraph,
+} from '../components/Motion/Motion';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
 import initTranslations from '../i18n';
 
@@ -26,21 +31,66 @@ const i18namespaces = ['home'];
 
 const Home = async ({ params: { locale } }: LocaleParams) => {
   const { t } = await initTranslations(locale, i18namespaces);
+
+  const grid = {
+    visible: { opacity: 1, transition: { duration: 0.2 } },
+    init: { opacity: 0 },
+  };
+
   return (
     <>
       <div className={styles.dummyHeroDiv} id="home" />
       <div className={styles.container}>
-        <div className={styles.gridBackground} />
-        <h1>
+        <MotionDiv
+          animate="visible"
+          className={styles.gridBackground}
+          initial="init"
+          variants={grid}
+        />
+        <MotionHeaderOne
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          initial={{
+            opacity: 0,
+            y: 5,
+          }}
+          transition={{ duration: 0.5, easeOut: 0.5 }}
+        >
           {t('header-start')}
           <span className={styles.smallText}> aka Adam Code</span>
           <br />
           <span className="text-gradient text-with-padding">
             {t('header-end')}
           </span>
-        </h1>
-        <p className={styles.heroParagraph}>{t('desc')}</p>
-        <div className={styles.btnContainer}>
+        </MotionHeaderOne>
+        <MotionParagraph
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          className={styles.heroParagraph}
+          initial={{
+            opacity: 0,
+            y: 10,
+          }}
+          transition={{ duration: 0.5, easeOut: 0.5 }}
+        >
+          {t('desc')}
+        </MotionParagraph>
+        <MotionDiv
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          className={styles.btnContainer}
+          initial={{
+            opacity: 0,
+            y: 15,
+          }}
+          transition={{ duration: 0.5, easeOut: 0.5 }}
+        >
           <Link href="/about">
             <button className="btn button-gradient" type="button">
               {t('projects-button')}
@@ -51,9 +101,20 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
               {t('skills-button')}
             </button>
           </Link>
-        </div>
+        </MotionDiv>
       </div>
-      <div className={styles.technologyHeader}>{t('technology-header')}</div>
+      <MotionDiv
+        animate={{
+          opacity: 1,
+        }}
+        className={styles.technologyHeader}
+        initial={{
+          opacity: 0,
+        }}
+        transition={{ duration: 0.5, easeOut: 0.5 }}
+      >
+        {t('technology-header')}
+      </MotionDiv>
       <TechnologyAnimation />
       <section id="myprojects">
         <h2>{t('projects-header')}</h2>
