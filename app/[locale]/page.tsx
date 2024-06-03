@@ -206,9 +206,10 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
                 <Image
                   alt={t(project.title)}
                   className={styles.projectImage}
-                  loading="eager"
+                  loading={index === 0 ? undefined : 'eager'}
                   placeholder="blur"
                   priority={index === 0}
+                  quality={50}
                   src={project.imageSrc}
                 />
               </Link>
