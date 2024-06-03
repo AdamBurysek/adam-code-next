@@ -1,6 +1,7 @@
 {
-  "project-header": "Problém obchodního cestujícího",
-  "header-info": "Dokážeš najít nekratší cestu?",
-  "project-desc": "Jako moji první appku pro Vida Science Centrum jsem naprogramoval tuto hru. Spočíva v tom, že musíte na mapě projít všemi městy v co nejkratší vzdálenosti. ",
-  "project-desc-two": "Hlavní výhodou tohoto programu je v tom, že do nej vložíte pouze správné odpovědi a k nim dané obrázky, které pojmenujete do odpovědích, ovšem bez diakritky a mezer. Kvíz se pak vygeneruje automaticky. Mění pořadí otázek a náhodně generuje špatné odpovědi."
+  "project-header": "Traveling Salesman Problem",
+  "header-info": "Can you find the shortest route?",
+  "project-desc": "As my first application for the Vida Science Center, I created this game. The goal is to travel through all the cities on the map in the shortest possible route.",
+  "project-desc-two": "This project also included another program written in Python that calculated the shortest distance. I have to thank Chat GPT for this program. 😀",
+  "project-desc-three": "The application is designed for a resolution of 1920x1080 and is not responsive. The web version may have a few issues, such as incorrect font loading. In the future, I plan to add installation files so that anyone can install and try it out."
 }

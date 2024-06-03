@@ -1,7 +1,7 @@
 {
-  "project-header": "Stoupání moří",
-  "header-info": "Aplikace, která demonstruje změny pevniny při vzestupu hladiny moře.",
-  "project-desc": "Toto je velmi jednoduchá aplikace, která mění obrázky na základě pozice slideru. Obrázky jsem zachoval z původního exponátu, pouze jsem změnil design.",
-  "project-desc-two": "Pro tuto appku jsem napsal i python program, který překonvertoval originální png obrázky do formátu webp. Protože obrázků bylo zhruba 180, tak to ušetřilo spoustu místa na disku a aplikace mohla fungovat rychleji.",
-  "project-desc-three": "Appka je dělaná pro rozlišení 1920x1080 a není responzivní. Její webová verze může způsobovat několik chyb, jako špatné načtění fontů a podobně. Pokusím se sem přidat v budoucnu i instalační soubory pro případ, že by si ji někdo chtěl nainstalovat a vyzkoušet."
+  "project-header": "Rising Seas",
+  "header-info": "An application demonstrating changes in land with rising sea levels.",
+  "project-desc": "This simple application changes images based on the position of the slider. I retained the original exhibit images, only updating the design.",
+  "project-desc-two": "For this application, I also wrote a Python program to convert the original PNG images to WebP format. Since there were approximately 180 images, this saved a lot of disk space and allowed the application to run faster.",
+  "project-desc-three": "The application is designed for a resolution of 1920x1080 and is not responsive. The web version may have a few issues, such as incorrect font loading. In the future, I plan to add installation files in case anyone wants to install and try it."
 }

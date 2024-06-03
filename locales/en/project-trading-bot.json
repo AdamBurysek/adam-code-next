@@ -1,7 +1,7 @@
 {
-  "project-header": "Obchodovací bot",
-  "header-info": "Žádné emoce při obchodování",
-  "project-desc": "Jenou mě tak napadlo, že bych si mohl postavit obchodovacího neboli trading bota. Že by to byl zajímavý projekt. Tak mě to nadchlo, že jsem během jednoho dne napsal program, který propojil můj python program s burzou. Druhý den program uměl otevírat short a long pozice a ukončovat obchody. Buď s profitem nebo strátou. Během týdne jsem měl naprogramovanou jednoduchou strategii a viruální peněženku, která zohledňovala i poplatky burzy. Pochopitelně jsem bota nechtěl hned ze startu připojit na reálné peníze a riskovat jejich ztrátu.",
-  "project-desc-two": "Následná část programu se ukázala velmi obtížná a to naprogramovat profitující skalpovací strategii. Skalping je sáma o sobě poměrně složitá disciplína v tradingu. Zvlášť díky poplatkům, které jsou při obchodování v krátkých časových úsecích poměrně vysoké. I když se mě podařilo stáhnout poplatky zhruba na čtvrtinu oproti normálu, stále je to problém a profit z většiny mých strategií pokrývá akorát poplatky. Takže bot stále funjuje v testovacím režimu.",
-  "project-desc-three": "Ovšem je to velmi zajímavý projekt, ke kterému se budu ve volných chvlích vracet."
+  "project-header": "Trading Bot",
+  "header-info": "Automated Trading Without Emotions",
+  "project-desc": "One day, I had the idea to create a trading bot. The project intrigued me so much that within a single day, I wrote a program that connected my Python application to an exchange. By the second day, the program could open and close short and long positions, either with a profit or a loss. Within a week, I had programmed a simple strategy and a virtual wallet that accounted for exchange fees. Naturally, I didn't want to connect the bot to real money right from the start and risk losing it.",
+  "project-desc-two": "The next part of the project proved to be very challenging – programming a profitable scalping strategy. Scalping is quite a complex discipline in trading, especially due to the high fees associated with short-term trades. Even though I managed to reduce the fees to about a quarter of the normal rate, it remains a problem, and the profit from most of my strategies just covers the fees. Therefore, the bot is still operating in test mode.",
+  "project-desc-three": "Nevertheless, it is a very interesting project that I will be happy to return to in my spare time."
 }

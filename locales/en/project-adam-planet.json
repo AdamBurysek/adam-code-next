@@ -1,6 +1,6 @@
 {
   "project-header": "Adam Planet",
-  "header-info": "Web s mojí hudební produkcí",
-  "project-desc": "Na svých webech si často zkouším něco nového. Tentokrát to byl Next.js a Three.js. Byl to asi můj čtvtý menší projekt, kde jsem použil Next.js. Ten jsem si velice oblíbil z mnoha důvodů. Jednak nabízí skvělou podporu pro server-side rendering, což výrazně zlepšuje výkon a SEO. Dále poskytuje jednoduchou integraci s API a umožňuje snadné spravování routingů. Navíc jeho flexibilita a podpora pro moderní funkce Reactu, jako jsou statické generování a dynamické importy, mi umožňují rychle vytvářet efektivní a výkonné aplikace.",
-  "project-desc-two": "Dalši věc, kterou jsem si chtěl vyzkoušet byla knihovna Three.js. Ta umožnuje zobrazování 3D objektů na webových stránkách za použití WebGL API."
+  "header-info": "A Website with My Music Production",
+  "project-desc": "I enjoy experimenting with new technologies on my web projects. This time, I focused on Next.js and Three.js. This was about my fourth small project using Next.js, which I have come to really like. There are many reasons for this: it offers great support for server-side rendering, which significantly improves performance and SEO, allows for easy integration with APIs, and provides efficient routing management. Additionally, its flexibility and support for modern React features, such as static generation and image optimization, allow me to quickly create efficient and powerful applications.",
+  "project-desc-two": "Another technology I wanted to try was the Three.js library. It allows for the rendering of 3D objects on web pages using the WebGL API."
 }

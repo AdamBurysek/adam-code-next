@@ -1,7 +1,7 @@
 {
-  "project-header": "Plánovač leteckých cest",
-  "header-info": "Můžete si na mapě naplánovat Vaší letecou cestu",
-  "project-desc": "Jednoduchá aplikace pomocí které si na mapě můžete naplánovat cestu. Aplikace ukazuje vzálenost, azimut a pokud má cesta více bodů, tak i úhel o který je potřeba zatočit. Když naklikáte cestu, je potřeba ji pomoci dvoukliku ukončit a následně Vám vyskočí tabulka s jednotlivými body trasy. Tyto body se dají nasledně pomocí myši editovat, když si zapnete edit mód nebo je můžete pomocí tabulky mazat.",
-  "project-desc-two": "Aplikace byla úkol na přijímací pohovor, ve kterém jsem bohužel neuspěl, ale aplikace se mi líbila natolik, že jsem se rozohdl ji zde sdílet. Třeba někomu přijde vhod.",
-  "project-desc-three": "Jedná se o desktopovou aplikaci, tudíž není optimalizovaná pro mobilní a dotykové přístroje."
+  "project-header": "Flight Path Planner",
+  "header-info": "Plan your flight route on the map",
+  "project-desc": "This simple application allows you to plan a route on the map. The application displays the distance, azimuth, and if the route has multiple points, the angle you need to turn. After plotting the route, you can finish it with a double-click, and a table with the individual waypoints will appear. These waypoints can then be edited with the mouse in edit mode or deleted using the table.",
+  "project-desc-two": "The application was created as a task for a job interview, which I unfortunately did not pass, but I liked the application so much that I decided to share it here. Maybe someone will find it useful.",
+  "project-desc-three": "This is a desktop application, so it is not optimized for mobile and touch devices."
 }

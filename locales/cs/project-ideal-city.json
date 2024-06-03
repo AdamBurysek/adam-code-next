@@ -1,9 +1,9 @@
 {
   "project-header": "Ideální město",
   "header-info": "Obrázková galerie",
-  "project-desc": "Druhá aplikace byla tato obrázková galerie, která doplňovala fyzický exponát. Děti si můžou na stole nakreslit obrázek a ten pak vyfotit a přidat do galerie.",
-  "project-desc-two": "Součástí tohoto programu byl i backend, který jsem udělal pomocí MongoDB. Protože MongoDB neslouží primárně k ukládání obrázku, do programu se dá i zadat maximální velikost obrázku v Mb. Program poté redukuje kvalitu obrázku až do doby, než dosáhne požadované velikosti a pak ho uloží do databáze. Aktuálně je velikost obrázků nastavena na 0.3Mb ve formátu webp a kvalita dle mého názoru plně dostačuje.",
-  "project-desc-three": "Dále program obsahuje skryté admin menu. Pomocí něj se dají mazat (pro případ nevhodných obrázků) a nebo naopak uchovávat vydařené obrázky. Ukládání totiž funguje tak, že se na backendu nastaví maximální počet obrázků, který galerie bude uchovávat. Pokud se tento počet překročí, program automaticky smaže nejstarší vyfocený obrázek který nemá značku zachování.",
-  "project-desc-four": "Appka je dělaná pro rozlišení 1920x1080 a není responzivní. Její webová verze může způsobovat několik chyb, jako špatné načtění fontů a podobně. Pokusím se sem přidat v budoucnu i instalační soubory pro případ, že by si ji někdo chtěl nainstalovat a vyzkoušet. Backend je v této verzi omezený pouze na čtení, takže se nemusíte bát, že by se vaše fotky kamkoliv ukládali.",
-  "project-desc-five": "Obrázkům může prvnotní načtení chvíli trvat."
+  "project-desc": "Tato aplikace slouží jako obrázková galerie, která doplňuje fyzický exponát. Děti si mohou na stole nakreslit obrázek, vyfotit ho a přidat do galerie.",
+  "project-desc-two": "Součástí programu je i backend vytvořený pomocí MongoDB. Protože MongoDB není primárně určeno k ukládání obrázků, lze v programu nastavit maximální velikost obrázku v MB. Program pak snižuje kvalitu obrázku, dokud nedosáhne požadované velikosti, a poté ho uloží do databáze. Aktuálně je velikost obrázků nastavena na 0,3 MB ve formátu WebP, což podle mého názoru plně dostačuje.",
+  "project-desc-three": "Program také obsahuje skryté admin menu, pomocí kterého lze obrázky mazat (například v případě nevhodného obsahu) nebo uchovávat vydařené obrázky. Ukládání funguje tak, že na backendu je nastaven maximální počet obrázků, které galerie uchová. Pokud je tento počet překročen, program automaticky smaže nejstarší vyfocený obrázek, který nemá značku zachování.",
+  "project-desc-four": "Aplikace je navržena pro rozlišení 1920x1080 a není responzivní. Webová verze může obsahovat několik chyb, například špatné načítání fontů. V budoucnu se pokusím přidat instalační soubory, aby si ji mohl kdokoli nainstalovat a vyzkoušet. Backend je v této verzi omezen pouze na čtení, takže se nemusíte bát, že by se vaše fotky někam ukládaly.",
+  "project-desc-five": "Prvotní načtení obrázků může chvíli trvat."
 }
