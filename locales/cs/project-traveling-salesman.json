@@ -1,0 +1,7 @@
+{
+  "project-header": "Problém obchodního cestujícího",
+  "header-info": "Dokážeš najít nekratší cestu?",
+  "project-desc": "Jako moji první appku pro Vida Science Centrum jsem naprogramoval tuto hru. Spočíva v tom, že musíte na mapě projít všemi městy v co nejkratší vzdálenosti.",
+  "project-desc-two": "Součástí tohoto programu byl i druhý program psaný v pythonu, který spočítal nejkratší vzdálenost. Za tento program ovšem musím poděkovat Chatu GPT. 😀",
+  "project-desc-three": "Appka je dělaná pro rozlišení 1920x1080 a není responzivní. Její webová verze může způsobovat několik chyb, jako špatné načtění fontů a podobně. Pokusím se sem přidat v budoucnu i instalační soubory pro případ, že by si ji někdo chtěl nainstalovat a vyzkoušet."
+}

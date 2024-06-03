@@ -5,7 +5,7 @@ import ProjectLogosBox from '@/app/components/MiniLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
 
-import AdamPlanetOldImage from '../../../../public/projects-images-home/adam-planet-v1.png';
+import AdamPlanet from '../../../../public/projects-images-home/adam-planet.png';
 
 import styles from './page.module.css';
 
@@ -15,7 +15,7 @@ type LocaleParams = {
   };
 };
 
-const i18namespaces = ['project-adam-planet-v1', 'global'];
+const i18namespaces = ['project-adam-planet', 'global'];
 
 const Page = async ({ params: { locale } }: LocaleParams) => {
   const { t } = await initTranslations(locale, i18namespaces);
@@ -27,18 +27,19 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
           className={styles.projectImage}
           placeholder="blur"
           priority
-          src={AdamPlanetOldImage}
+          src={AdamPlanet}
         />
-        <ProjectLogosBox show={['Html', 'Css', 'JavaScript']} />
+        <ProjectLogosBox show={['Next', 'TypeScript', 'ThreeJs']} />
       </div>
       <div className={styles.bottomBox}>
         <h1 className="text-gradient">{t('project-header')}</h1>
         <p className={styles.headerInfo}>{t('header-info')}</p>
         <p className={styles.projectDesc}>{t('project-desc')}</p>
+        <p className={styles.projectDesc}>{t('project-desc-two')}</p>
         <div className={styles.buttonBox}>
           <a
             className={styles.webLink}
-            href="https://www.adamplanet.cz/ostatniweby/adamplanetold/"
+            href="https://music.adamplanet.cz/"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -46,7 +47,11 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
           </a>
         </div>
       </div>
-      <ProjectNavbar locale={locale} nextLink="/projects/grocery-bud" />
+      <ProjectNavbar
+        locale={locale}
+        nextLink="/projects/trading-bot"
+        prevLink="/projects/old-adam-code"
+      />
     </div>
   );
 };

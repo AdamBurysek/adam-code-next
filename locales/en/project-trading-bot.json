@@ -1,0 +1,7 @@
+{
+  "project-header": "Obchodovací bot",
+  "header-info": "Žádné emoce při obchodování",
+  "project-desc": "Jenou mě tak napadlo, že bych si mohl postavit obchodovacího neboli trading bota. Že by to byl zajímavý projekt. Tak mě to nadchlo, že jsem během jednoho dne napsal program, který propojil můj python program s burzou. Druhý den program uměl otevírat short a long pozice a ukončovat obchody. Buď s profitem nebo strátou. Během týdne jsem měl naprogramovanou jednoduchou strategii a viruální peněženku, která zohledňovala i poplatky burzy. Pochopitelně jsem bota nechtěl hned ze startu připojit na reálné peníze a riskovat jejich ztrátu.",
+  "project-desc-two": "Následná část programu se ukázala velmi obtížná a to naprogramovat profitující skalpovací strategii. Skalping je sáma o sobě poměrně složitá disciplína v tradingu. Zvlášť díky poplatkům, které jsou při obchodování v krátkých časových úsecích poměrně vysoké. I když se mě podařilo stáhnout poplatky zhruba na čtvrtinu oproti normálu, stále je to problém a profit z většiny mých strategií pokrývá akorát poplatky. Takže bot stále funjuje v testovacím režimu.",
+  "project-desc-three": "Ovšem je to velmi zajímavý projekt, ke kterému se budu ve volných chvlích vracet."
+}

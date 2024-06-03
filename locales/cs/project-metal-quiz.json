@@ -1,0 +1,6 @@
+{
+  "project-header": "Kvíz o kovech",
+  "header-info": "Úkol na přijímací pohovor do Vida Science Centra",
+  "project-desc": "V době kdy jsem začínal s Reactem, tak na mě vyskočila facebook reklama s pozicí programátora pro Vida Science Centrum. Úkol na přijimací pohovor mě velmi zaujal a rozhodl jsem se ho zkusit. Tento úkol mě tak zaujal, že jsem ho programoval asi tři dny vkuse než jsem ho zvládl. O získání práce mě ani tolik nešlo, protože byl začátek léta a já se aktuálně živil jako dj a měl jsem poměrně nabitý program na léto. Spíš mě zajímal názor na moje programovací dovednosti. Úkol se lidem z Vida Centra líbil natolik, že mě dali přednost před lidma co byli ochotni pracovat na plný úvazek a tak jsem získal brigádu jako programátor.",
+  "project-desc-two": "Hlavní výhodou tohoto programu je v tom, že do nej vložíte pouze správné odpovědi a k nim dané obrázky, které pojmenujete do odpovědích, ovšem bez diakritky a mezer. Kvíz se pak vygeneruje automaticky. Mění pořadí otázek a náhodně generuje špatné odpovědi."
+}

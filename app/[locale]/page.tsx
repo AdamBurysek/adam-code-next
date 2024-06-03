@@ -4,11 +4,13 @@ import Link from 'next/link';
 import AdamCodeV2 from '../../public/projects-images-home/adam-code-v2.png';
 import AdamPlanetOldImage from '../../public/projects-images-home/adam-planet-v1.png';
 import AdamPlanetImage from '../../public/projects-images-home/adam-planet.png';
+import FlightPathPlanner from '../../public/projects-images-home/flight-path-planner.png';
 import GroceryBud from '../../public/projects-images-home/grocery-bud.png';
 import IdealCity from '../../public/projects-images-home/ideal-city.png';
 import MetalQuiz from '../../public/projects-images-home/metal-quiz.png';
 import Modrice from '../../public/projects-images-home/modrice.png';
 import SeaLevelRise from '../../public/projects-images-home/sea-level-rise.png';
+import TradingBot from '../../public/projects-images-home/trading-bot.jpg';
 import TravelingSalesman from '../../public/projects-images-home/traveling-salesman.png';
 import MiniLogosBox from '../components/MiniLogos/MiniLogosBox';
 import { MotionDiv, MotionParagraph } from '../components/Motion/Motion';
@@ -27,42 +29,56 @@ const i18namespaces = ['home'];
 
 const projects = [
   {
-    href: '/adamplanet',
+    href: '/projects/flight-path-planner',
+    title: 'project-flight-path-planner',
+    date: '2024',
+    imageSrc: FlightPathPlanner,
+    logos: ['React', 'TypeScript', 'Electron', 'Vite'],
+  },
+  {
+    href: '/projects/trading-bot',
+    title: 'project-trading-bot',
+    date: '2024',
+    imageSrc: TradingBot,
+    logos: ['Python'],
+  },
+  {
+    href: '/projects/adam-planet',
     title: 'project-adam-planet',
     date: '2024',
     imageSrc: AdamPlanetImage,
     logos: ['Next', 'TypeScript', 'ThreeJs'],
   },
   {
-    href: '/adamplanet',
-    title: 'project-adam-code',
+    href: '/projects/old-adam-code',
+    title: 'project-old-adam-code',
     date: '2023',
     imageSrc: AdamCodeV2,
     logos: ['React', 'TypeScript', 'Mongo', 'Cloudinary', 'Vite'],
   },
   {
-    href: '/adamplanet',
+    href: '/projects/sea-level-rise',
     title: 'project-sea-level-rise',
     date: '2023',
     imageSrc: SeaLevelRise,
     logos: ['React', 'TypeScript', 'Electron', 'Vite'],
   },
   {
-    href: '/adamplanet',
+    href: '/projects/ideal-city',
     title: 'project-ideal-city',
     date: '2023',
     imageSrc: IdealCity,
     logos: ['React', 'TypeScript', 'Electron', 'Vite', 'Mongo'],
   },
   {
-    href: '/adamplanet',
+    href: '/projects/traveling-salesman',
     title: 'project-traveling-salesman',
     date: '2023',
     imageSrc: TravelingSalesman,
     logos: ['React', 'TypeScript', 'Electron', 'Vite'],
   },
   {
-    href: '/adamplanet',
+    href: '/projects/metal-quiz',
     title: 'project-metal-quiz',
     date: '2023',
     imageSrc: MetalQuiz,
@@ -192,6 +208,7 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
                   className={styles.projectImage}
                   loading="eager"
                   placeholder="blur"
+                  priority={index === 0}
                   src={project.imageSrc}
                 />
               </Link>

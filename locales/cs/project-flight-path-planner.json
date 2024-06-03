@@ -1,0 +1,7 @@
+{
+  "project-header": "Plánovač leteckých cest",
+  "header-info": "Můžete si na mapě naplánovat Vaší letecou cestu",
+  "project-desc": "Jednoduchá aplikace pomocí které si na mapě můžete naplánovat cestu. Aplikace ukazuje vzálenost, azimut a pokud má cesta více bodů, tak i úhel o který je potřeba zatočit. Když naklikáte cestu, je potřeba ji pomoci dvoukliku ukončit a následně Vám vyskočí tabulka s jednotlivými body trasy. Tyto body se dají nasledně pomocí myši editovat, když si zapnete edit mód nebo je můžete pomocí tabulky mazat.",
+  "project-desc-two": "Aplikace byla úkol na přijímací pohovor, ve kterém jsem bohužel neuspěl, ale aplikace se mi líbila natolik, že jsem se rozohdl ji zde sdílet. Třeba někomu přijde vhod.",
+  "project-desc-three": "Jedná se o desktopovou aplikaci, tudíž není optimalizovaná pro mobilní a dotykové přístroje."
+}

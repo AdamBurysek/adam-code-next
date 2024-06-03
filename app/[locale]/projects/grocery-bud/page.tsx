@@ -17,7 +17,7 @@ type LocaleParams = {
 
 const i18namespaces = ['project-grocery-bud', 'global'];
 
-const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
+const Page = async ({ params: { locale } }: LocaleParams) => {
   const { t } = await initTranslations(locale, i18namespaces);
   return (
     <div className={styles.container}>
@@ -48,11 +48,11 @@ const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
       </div>
       <ProjectNavbar
         locale={locale}
-        nextLink="/projects/adam-planet-v1"
+        nextLink="/projects/modrice-go-kart"
         prevLink="/projects/adam-planet-v1"
       />
     </div>
   );
 };
 
-export default AdamPlanetOld;
+export default Page;

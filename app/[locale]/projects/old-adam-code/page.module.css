@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.topBox {
+  display: grid;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.projectImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.headerInfo {
+  font-weight: 700;
+  padding: 0.5rem 0;
+  color: var(--color-grey-nine);
+}
+
+.projectDesc {
+  padding-top: 1rem;
+  max-width: 832px;
+}
+
+.webLink {
+  color: var(--color-background);
+  background: linear-gradient(
+    90deg,
+    var(--color-primary) 0%,
+    var(--color-primary-light) 120%
+  );
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.webLink:hover {
+  background: var(--color-primary);
+}
+
+.buttonBox {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.secondButtonBox {
+  padding-top: 2rem;
+}
+
+@media screen and (min-width: 880px) {
+  .topBox {
+    grid-template-columns: 80% 20%;
+  }
+  .bottomBox {
+    margin-left: 4rem;
+  }
+}

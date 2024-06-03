@@ -17,7 +17,7 @@ type LocaleParams = {
 
 const i18namespaces = ['project-modrice-go-kart', 'global'];
 
-const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
+const Page = async ({ params: { locale } }: LocaleParams) => {
   const { t } = await initTranslations(locale, i18namespaces);
   return (
     <div className={styles.container}>
@@ -38,7 +38,7 @@ const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
         <div className={styles.buttonBox}>
           <a
             className={styles.webLink}
-            href="https://www.adamplanet.cz/ostatniweby/adamplanetold/"
+            href="https://adamplanet.cz/ostatniweby/modrice/"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -46,9 +46,13 @@ const AdamPlanetOld = async ({ params: { locale } }: LocaleParams) => {
           </a>
         </div>
       </div>
-      <ProjectNavbar locale={locale} nextLink="/projects/grocery-bud" />
+      <ProjectNavbar
+        locale={locale}
+        nextLink="/projects/metal-quiz"
+        prevLink="/projects/grocery-bud"
+      />
     </div>
   );
 };
 
-export default AdamPlanetOld;
+export default Page;

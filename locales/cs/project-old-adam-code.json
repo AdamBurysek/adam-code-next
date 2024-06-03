@@ -1,0 +1,7 @@
+{
+  "project-header": "Starý Adam Code web",
+  "header-info": "Moje předchozí portfolio",
+  "project-desc": "Na webech se svým portfoliem jsem si většinou zkoušel technologie, pro které jsem jinde neměl aktuálně využití. Tento web na kterém jste je již třetí verzí mého portfolia.",
+  "project-desc-two": "První verzi jsem napsal pomocí knihovny Mantine. Chtěl jsem si ji jednoduše vyzkoušet. K tomuto webu jsem přidal i jednoduchý CMS systém. Tedy stránku, přes kterou jsem si mohl přidat nový projekt na web bez toho, abych musel dělat cokoliv s kódem. Jako databázi jsem použil moje oblíbené MongoDB a pro ukládání obrázků jsem zvolil Cloudinary. Výhodou Cloudinary je to, že mi automaticky ořízne obrázek a překonvertuje ho na webp formát. Co se týče Mantine, knihovna se mi velice líbila, ale myslím, že jsou na trhu lepší alternativy.",
+  "project-desc-three": "V druhé verzi jsem opustil Mantine. Na úvodní strance jsem udělal parallax animaci za použití knihovny Framer Motion. V době rychlých webů, já jsem si naopak chtěl vyzkoušet udělat loading webu. Aby loading nebyl příliš krátky, použil jsem na web speciální font, který si můsíte stáhnout spolu s obrázky, než budete na web připuštěni. Samotnou loading animaci jsem udělal čistě pomocí css, aby se naopak načetla rychle. Karty s projektama jsem převzal z první verze, takže MongoDB i Cloudinary zůstaly."
+}

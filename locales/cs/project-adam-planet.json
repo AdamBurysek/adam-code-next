@@ -1,0 +1,6 @@
+{
+  "project-header": "Adam Planet",
+  "header-info": "Web s mojí hudební produkcí",
+  "project-desc": "Na svých webech si často zkouším něco nového. Tentokrát to byl Next.js a Three.js. Byl to asi můj čtvtý menší projekt, kde jsem použil Next.js. Ten jsem si velice oblíbil z mnoha důvodů. Jednak nabízí skvělou podporu pro server-side rendering, což výrazně zlepšuje výkon a SEO. Dále poskytuje jednoduchou integraci s API a umožňuje snadné spravování routingů. Navíc jeho flexibilita a podpora pro moderní funkce Reactu, jako jsou statické generování a dynamické importy, mi umožňují rychle vytvářet efektivní a výkonné aplikace.",
+  "project-desc-two": "Dalši věc, kterou jsem si chtěl vyzkoušet byla knihovna Three.js. Ta umožnuje zobrazování 3D objektů na webových stránkách za použití WebGL API."
+}
