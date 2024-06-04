@@ -1,4 +1,5 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
+/* eslint-disable import/no-extraneous-dependencies */
+import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { dir } from 'i18next';
 import type { Metadata } from 'next';
@@ -35,6 +36,7 @@ const RootLayout = async ({
     <html dir={dir(locale)} lang={locale}>
       <body>
         <SpeedInsights />
+        <Analytics />
         <TranslationsProvider
           locale={locale}
           namespaces={i18namespaces}
