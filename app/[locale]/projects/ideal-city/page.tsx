@@ -52,8 +52,8 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
       </div>
       <ProjectNavbar
         locale={locale}
-        nextLink="/projects/sea-level-rise"
-        prevLink="/projects/traveling-salesman"
+        nextLink="/projects/traveling-salesman"
+        prevLink="/projects/sea-level-rise"
       />
     </div>
   );
