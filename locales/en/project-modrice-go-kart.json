@@ -1,0 +1,5 @@
+{
+  "project-header": "Go-Karts Modřice",
+  "header-info": "An Attempt at Beautiful Web Design",
+  "project-desc": "After learning the basics of JavaScript, I decided to create an attractive web design. The first website that came to mind was the Kart Center in Brno Modřice, because I know the owner takes great photos and quality images are the foundation of success. I was also very impressed with the slideshow on the Bowling Brno website. I looked into their source code and found out they were using a jQuery plugin called Vegas. Using this plugin and some beautiful photos, I created the homepage. Since I was learning JavaScript at the time, I also experimented with a few new things I had just learned, such as a dropdown menu, a hiding top bar, and a carousel."
+}

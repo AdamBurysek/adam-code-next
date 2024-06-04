@@ -1,5 +1,6 @@
 {
-  "project-header": "Kvíz o kovech",
-  "header-info": "Úkol na přijímací pohovor do Vida Science Centra",
-  "project-desc": "Když jsem se naučil základy JavaScriptu, rozhodl jsem se pokusit udělat pěkný design webové stránky. Ihned mě napadl web Kart Centra v Brně Modřicích, protože vím, že majitel dobře fotí a dobré fotky jsou základ úspěchu. Zároveň se mi velmi líbila slideshow na stránkách Bowlingu Brno. Vlezl jsem jim tedy do zdrojového kódu a vytáhl si informaci o tom, že se jedná o jQuery plugin jménem Vegas. Za pomocí tohoto pluginu a pěkných fotek jsem udělal úvodní stránku. Protože jsem se zrovna učil JavaScript, vyzkoušel jsem si i pár věcí co jsem se zrovna naučil jako dropdown menu, schovávací horní lištu nebo carousel."
+  "project-header": "Metals Quiz",
+  "header-info": "Task for the Vida Science Center Job Interview",
+  "project-desc": "When I was starting with React, I came across a Facebook ad for a programmer position at the Vida Science Center. The task for the job interview intrigued me, so I decided to give it a try. I was so captivated by the task that I worked on it for three days straight until I completed it. I wasn't particularly focused on getting the job since it was the beginning of summer and I was working as a DJ with a pretty busy schedule. I was more interested in getting feedback on my programming skills. The people at Vida Center liked the task so much that they preferred me over candidates who were willing to work full-time, and thus I secured a part-time job as a programmer.",
+  "project-desc-two": "The main advantage of this program is that you only need to input the correct answers and corresponding images, which you name according to the answers without diacritics and spaces. The quiz is then generated automatically, shuffling the questions and randomly generating incorrect answers."
 }
