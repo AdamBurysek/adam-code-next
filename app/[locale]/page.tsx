@@ -13,7 +13,7 @@ import SeaLevelRise from '../../public/projects-images-home/sea-level-rise.png';
 import TradingBot from '../../public/projects-images-home/trading-bot.jpg';
 import TravelingSalesman from '../../public/projects-images-home/traveling-salesman.png';
 import MiniLogosBox from '../components/MiniLogos/MiniLogosBox';
-import { MotionDiv, MotionParagraph } from '../components/Motion/Motion';
+import { MotionDiv, MotionSpan } from '../components/Motion/Motion';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
 import initTranslations from '../i18n';
 
@@ -133,20 +133,19 @@ const Home = async ({ params: { locale } }: LocaleParams) => {
             {t('header-end')}
           </span>
         </h1>
-        <MotionParagraph
+        <MotionSpan
           animate={{
             opacity: 1,
             y: 0,
           }}
-          className={styles.heroParagraph}
           initial={{
             opacity: 0,
             y: 10,
           }}
           transition={{ duration: 0.5, easeOut: 0.5 }}
         >
-          {t('desc')}
-        </MotionParagraph>
+          <p className={styles.heroParagraph}>{t('desc')}</p>
+        </MotionSpan>
         <MotionDiv
           animate={{
             opacity: 1,
