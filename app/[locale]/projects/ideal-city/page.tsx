@@ -29,7 +29,9 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
           priority
           src={IdealCity}
         />
-        <ProjectLogosBox show={['React', 'TypeScript', 'Electron', 'Vite']} />
+        <ProjectLogosBox
+          show={['React', 'TypeScript', 'Electron', 'Vite', 'Mongo']}
+        />
       </div>
       <div className={styles.bottomBox}>
         <h1 className="text-gradient">{t('project-header')}</h1>
