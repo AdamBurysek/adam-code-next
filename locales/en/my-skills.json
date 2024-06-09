@@ -9,7 +9,7 @@
   "html": "Simply a fundamental skill that needs to be mastered.",
   "react": "I chose React because of its large community, ecosystem, and simplicity.",
   "next": "Today, I primarily create web applications using Next.js. The simplicity and performance of Next.js have simply amazed me.",
-  "react-native": "If you know React, it's not that difficult to master React Native.",
+  "react-native": "For mobile applications, I use React Native.",
   "electron": "When a desktop application is needed, I extend React with Electron.js.",
   "node": "I know the basics. So far, there hasn't been a reason to go deeper. Hopefully, a reason will arise in the future.",
   "express": "A simple framework for Node.js that can make life easier.",
