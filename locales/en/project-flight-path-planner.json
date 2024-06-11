@@ -1,7 +1,7 @@
 {
-  "project-header": "Flight Path Planner",
+  "project-header": "Flight Planner",
   "header-info": "Plan your flight route on the map",
-  "project-desc": "This simple application allows you to plan a route on the map. The application displays the distance, azimuth, and if the route has multiple points, the angle you need to turn. After plotting the route, you can finish it with a double-click, and a table with the individual waypoints will appear. These waypoints can then be edited with the mouse in edit mode or deleted using the table.",
-  "project-desc-two": "The application was created as a task for a job interview, which I unfortunately did not pass, but I liked the application so much that I decided to share it here. Maybe someone will find it useful.",
+  "project-desc": "This simple application allows you to plan a flight route on the map, which you can then fly with an aircraft or in a flight simulator.",
+  "project-desc-two": "The application displays the distance, azimuth, and if the route contains multiple points, also the angle you need to turn. After entering the route, you can finish it with a double-click, which will then display a table with the individual points of the route. These points can be subsequently edited with the mouse in edit mode or deleted using the table.",
   "project-desc-three": "This is a desktop application, so it is not optimized for mobile and touch devices."
 }
