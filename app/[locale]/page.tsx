@@ -29,20 +29,6 @@ const i18namespaces = ['home'];
 
 const projects = [
   {
-    href: '/projects/flight-path-planner',
-    title: 'project-flight-path-planner',
-    date: '2024',
-    imageSrc: FlightPathPlanner,
-    logos: ['React', 'TypeScript', 'Electron', 'Vite'],
-  },
-  {
-    href: '/projects/trading-bot',
-    title: 'project-trading-bot',
-    date: '2024',
-    imageSrc: TradingBot,
-    logos: ['Python'],
-  },
-  {
     href: '/projects/adam-planet',
     title: 'project-adam-planet',
     date: '2024',
@@ -50,17 +36,10 @@ const projects = [
     logos: ['Next', 'TypeScript', 'ThreeJs'],
   },
   {
-    href: '/projects/old-adam-code',
-    title: 'project-old-adam-code',
+    href: '/projects/traveling-salesman',
+    title: 'project-traveling-salesman',
     date: '2023',
-    imageSrc: AdamCodeV2,
-    logos: ['React', 'TypeScript', 'Mongo', 'Cloudinary', 'Vite'],
-  },
-  {
-    href: '/projects/sea-level-rise',
-    title: 'project-sea-level-rise',
-    date: '2023',
-    imageSrc: SeaLevelRise,
+    imageSrc: TravelingSalesman,
     logos: ['React', 'TypeScript', 'Electron', 'Vite'],
   },
   {
@@ -71,11 +50,25 @@ const projects = [
     logos: ['React', 'TypeScript', 'Electron', 'Vite', 'Mongo'],
   },
   {
-    href: '/projects/traveling-salesman',
-    title: 'project-traveling-salesman',
+    href: '/projects/sea-level-rise',
+    title: 'project-sea-level-rise',
     date: '2023',
-    imageSrc: TravelingSalesman,
+    imageSrc: SeaLevelRise,
     logos: ['React', 'TypeScript', 'Electron', 'Vite'],
+  },
+  {
+    href: '/projects/flight-path-planner',
+    title: 'project-flight-path-planner',
+    date: '2024',
+    imageSrc: FlightPathPlanner,
+    logos: ['React', 'TypeScript', 'Electron', 'Vite'],
+  },
+  {
+    href: '/projects/old-adam-code',
+    title: 'project-old-adam-code',
+    date: '2023',
+    imageSrc: AdamCodeV2,
+    logos: ['React', 'TypeScript', 'Mongo', 'Cloudinary', 'Vite'],
   },
   {
     href: '/projects/metal-quiz',
@@ -90,6 +83,13 @@ const projects = [
     date: '2023',
     imageSrc: Modrice,
     logos: ['Html', 'Css', 'JavaScript'],
+  },
+  {
+    href: '/projects/trading-bot',
+    title: 'project-trading-bot',
+    date: '2024',
+    imageSrc: TradingBot,
+    logos: ['Python'],
   },
   {
     href: '/projects/grocery-bud',
