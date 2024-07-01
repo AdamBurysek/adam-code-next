@@ -25,6 +25,7 @@
   max-width: 450px;
   height: auto;
   grid-area: image;
+  border-radius: 10px;
 }
 
 .container h2 {
@@ -41,6 +42,11 @@
 
 .text {
   grid-area: content;
+}
+
+.text h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .text p {

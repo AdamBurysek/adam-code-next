@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import { MotionDiv, MotionSpan } from '@/app/components/Motion/Motion';
 
-import TradeOffImage from '../../../public/trade-off.png';
+import LaptopImage from '../../../public/laptopImage.webp';
 import initTranslations from '../../i18n';
 
 import styles from './page.module.css';
@@ -55,7 +55,7 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
             alt="Image"
             className={styles.topImage}
             placeholder="blur"
-            src={TradeOffImage}
+            src={LaptopImage}
           />
         </MotionSpan>
       </div>
