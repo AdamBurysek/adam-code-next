@@ -15,10 +15,8 @@
 }
 
 .heroParagraph {
-  letter-spacing: -0.05em;
   color: var(--color-grey-nine);
   max-width: 480px;
-  font-weight: 500;
   margin-left: 10vw;
   margin-top: 1rem;
   background: var(--color-background);
