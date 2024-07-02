@@ -50,8 +50,8 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
       </div>
       <ProjectNavbar
         locale={locale}
-        nextLink="/projects/ideal-city"
-        prevLink="/projects/old-adam-code"
+        nextLink="/projects/flight-path-planner"
+        prevLink="/projects/ideal-city"
       />
     </div>
   );
