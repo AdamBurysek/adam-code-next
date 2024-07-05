@@ -7,6 +7,7 @@ import {
   Figma,
   GitHub,
   MongoDb,
+  NextLogo,
   Node,
   Python,
   ReactLogo,
@@ -39,6 +40,7 @@ const TechnologyAnimation = () => (
             <Electron />
             <GitHub />
             <Python />
+            <NextLogo />
           </section>
         ))}
       </div>
