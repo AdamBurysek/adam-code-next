@@ -1,5 +1,3 @@
-/* eslint-disable unicorn/no-document-cookie */
-
 'use client';
 
 import { motion } from 'framer-motion';

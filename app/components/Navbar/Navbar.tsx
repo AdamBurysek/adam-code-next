@@ -34,7 +34,7 @@ const Navbar = () => {
     const date = new Date();
     date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
     const expires = date.toUTCString();
-    // eslint-disable-next-line unicorn/no-document-cookie
+
     document.cookie = `NEXT_LOCALE=${newLocale};expires=${expires};path=/`;
 
     // redirect to the new locale path

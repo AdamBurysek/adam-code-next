@@ -90,6 +90,7 @@ module.exports = {
     'object-curly-newline': ['error', { consistent: true }],
     'unicorn/no-array-callback-reference': 'off',
     'unicorn/no-array-reduce': 'off',
+    'unicorn/no-document-cookie': 'off',
     'unicorn/prefer-module': 'off',
     'unicorn/prefer-node-protocol': 'off',
     'unicorn/prevent-abbreviations': 'off',
