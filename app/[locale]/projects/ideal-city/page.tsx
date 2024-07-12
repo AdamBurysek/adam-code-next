@@ -5,6 +5,9 @@ import ProjectLogosBox from '@/app/components/MiniLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
 
+import IdealCityAdmin from '../../../../public/projects/ideal-city/ideal-city-admin.png';
+import IdealCityButtons from '../../../../public/projects/ideal-city/ideal-city-buttons.png';
+import IdealCityLogin from '../../../../public/projects/ideal-city/ideal-city-login.png';
 import IdealCity from '../../../../public/projects-images-home/ideal-city.png';
 
 type LocaleParams = {
@@ -37,6 +40,29 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <p className="projectDesc">{t('project-desc')}</p>
         <p className="projectDesc">{t('project-desc-two')}</p>
         <p className="projectDesc">{t('project-desc-three')}</p>
+        <h2 className="projectHeader">{t('project-header-admin')}</h2>
+        <p className="projectDesc">{t('project-admin-one')}</p>
+        <Image
+          alt="Adam"
+          className="contentImage"
+          placeholder="blur"
+          src={IdealCityButtons}
+        />
+        <p className="projectDesc">{t('project-admin-two')}</p>
+        <p className="projectDesc bold">{t('project-admin-password')}</p>
+        <Image
+          alt="Adam"
+          className="contentImage"
+          placeholder="blur"
+          src={IdealCityLogin}
+        />
+        <p className="projectDesc">{t('project-admin-three')}</p>
+        <Image
+          alt="Adam"
+          className="contentImage"
+          placeholder="blur"
+          src={IdealCityAdmin}
+        />
         <p className="projectDesc">{t('project-desc-four')}</p>
         <p className="projectDesc">{t('project-desc-five')}</p>
         <div className="buttonBox">

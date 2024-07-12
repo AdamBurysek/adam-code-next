@@ -4,6 +4,11 @@
   "project-desc": "Tato aplikace slouží jako obrázková galerie, která doplňuje fyzický exponát. Děti si mohou na stole nakreslit obrázek, vyfotit ho a přidat do galerie.",
   "project-desc-two": "Součástí programu je i backend vytvořený pomocí MongoDB. Protože MongoDB není primárně určeno k ukládání obrázků, lze v programu nastavit maximální velikost obrázku v MB. Program pak snižuje kvalitu obrázku, dokud nedosáhne požadované velikosti, a poté ho uloží do databáze. Aktuálně je velikost obrázků nastavena na 0,3 MB ve formátu WebP, což podle mého názoru plně dostačuje.",
   "project-desc-three": "Program také obsahuje skryté admin menu, pomocí kterého lze obrázky mazat (například v případě nevhodného obsahu) nebo uchovávat vydařené obrázky. Ukládání funguje tak, že na backendu je nastaven maximální počet obrázků, které galerie uchová. Pokud je tento počet překročen, program automaticky smaže nejstarší vyfocený obrázek, který nemá značku zachování.",
+  "project-header-admin": "Jak se dostat do admin menu",
+  "project-admin-one": "Pokud se podíváte na obrázek níže, uvidíte v levém dolním rohu tři tlačítka označené čísly. Tyto tlačítka je nutné zmáčknout v pořadí 1,2,3. Bežně jsou tyto tlačítka neviditelná, nyní jsou červeně zvýrazněná.",
+  "project-admin-two": "Pokud se vám podaří stisknout tlačítka ve správném pořadí, dostanete se na přihlašovací obrazovku. Zde je nutné zadat admin heslo.",
+  "project-admin-password": "Heslo: test",
+  "project-admin-three": "Po zadání správného hesla se dostanete do admin menu. Zde je možné mazat obrázky v galerii, případně určovat, které obrázky budou zachovány v galerii a které naopak budou smazány při vyčerpání maximální kapacity galerie.",
   "project-desc-four": "Aplikace je navržena pro rozlišení 1920x1080 a není responzivní. Webová verze může obsahovat několik chyb, například špatné načítání fontů. V budoucnu se pokusím přidat instalační soubory, aby si ji mohl kdokoli nainstalovat a vyzkoušet. Backend je v této verzi omezen pouze na čtení, takže se nemusíte bát, že by se vaše fotky někam ukládaly.",
   "project-desc-five": "Prvotní načtení obrázků může chvíli trvat."
 }
