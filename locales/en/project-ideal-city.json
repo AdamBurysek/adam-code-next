@@ -4,6 +4,11 @@
   "project-desc": "This application serves as an image gallery that complements a physical exhibit. Children can draw a picture on the table, take a photo of it, and add it to the gallery.",
   "project-desc-two": "The program includes a backend created using MongoDB. Since MongoDB is not primarily intended for storing images, the program allows setting a maximum image size in MB. The program then reduces the image quality until it reaches the desired size and stores it in the database. Currently, the image size is set to 0.3 MB in WebP format, which I believe is fully sufficient.",
   "project-desc-three": "The program also includes a hidden admin menu that allows for deleting images (e.g., in case of inappropriate content) or preserving successful images. The storage works by setting a maximum number of images the gallery will keep on the backend. If this number is exceeded, the program automatically deletes the oldest image that does not have a preservation mark.",
+  "project-header-admin": "How to Access the Admin Menu",
+  "project-admin-one": "If you look at the image below, you will see three buttons in the lower-left corner labeled with numbers. You need to press these buttons in the order 1, 2, 3. Normally, these buttons are invisible; they are now highlighted in red.",
+  "project-admin-two": "If you manage to press the buttons in the correct order, you will reach the login screen. Here, you need to enter the admin password.",
+  "project-admin-password": "Password: test",
+  "project-admin-three": "After entering the correct password, you will access the admin menu. Here you can delete images in the gallery or determine which images will be retained in the gallery and which will be deleted when the gallery reaches its maximum capacity.",
   "project-desc-four": "The application is designed for a resolution of 1920x1080 and is not responsive. The web version may have a few issues, such as incorrect font loading. In the future, I plan to add installation files so that anyone can install and try it out. The backend is read-only in this version, so you don't have to worry about your photos being stored anywhere.",
   "project-desc-five": "The initial loading of images may take a while."
 }

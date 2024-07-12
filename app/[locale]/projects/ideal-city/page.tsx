@@ -40,22 +40,26 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <p className="projectDesc">{t('project-desc')}</p>
         <p className="projectDesc">{t('project-desc-two')}</p>
         <p className="projectDesc">{t('project-desc-three')}</p>
-        <h2 className="projectHeader">How to get access to admin menu</h2>
+        <h2 className="projectHeader">{t('project-header-admin')}</h2>
+        <p className="projectDesc">{t('project-admin-one')}</p>
         <Image
           alt="Adam"
-          className="projectImage"
+          className="contentImage"
           placeholder="blur"
           src={IdealCityButtons}
         />
+        <p className="projectDesc">{t('project-admin-two')}</p>
+        <p className="projectDesc bold">{t('project-admin-password')}</p>
         <Image
           alt="Adam"
-          className="projectImage"
+          className="contentImage"
           placeholder="blur"
           src={IdealCityLogin}
         />
+        <p className="projectDesc">{t('project-admin-three')}</p>
         <Image
           alt="Adam"
-          className="projectImage"
+          className="contentImage"
           placeholder="blur"
           src={IdealCityAdmin}
         />
