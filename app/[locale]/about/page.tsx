@@ -55,6 +55,7 @@ const AboutMe = async ({ params: { locale } }: LocaleParams) => {
             alt="Adam Picture"
             className={styles.adamImage}
             placeholder="blur"
+            priority
             src={AdamPicture}
           />
         </MotionSpan>
