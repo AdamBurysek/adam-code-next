@@ -19,20 +19,20 @@ type Props = {
   show?: string[] | string;
 };
 
-const MiniLogosBox = (props: Props) => (
+const MiniLogosBox = ({ show }: Props) => (
   <div className={styles.container}>
-    {(!props.show || props.show.includes('Html')) && <HtmlMini />}
-    {(!props.show || props.show.includes('Css')) && <CssMini />}
-    {(!props.show || props.show.includes('React')) && <ReactMini />}
-    {(!props.show || props.show.includes('Next')) && <NextMini />}
-    {(!props.show || props.show.includes('JavaScript')) && <JavaScriptMini />}
-    {(!props.show || props.show.includes('TypeScript')) && <TypeScriptMini />}
-    {(!props.show || props.show.includes('Electron')) && <ElectronMini />}
-    {(!props.show || props.show.includes('Vite')) && <ViteMini />}
-    {(!props.show || props.show.includes('Mongo')) && <MongoMini />}
-    {(!props.show || props.show.includes('Cloudinary')) && <CloudinaryMini />}
-    {(!props.show || props.show.includes('Python')) && <PythonMini />}
-    {(!props.show || props.show.includes('ThreeJs')) && <ThreeJsMini />}
+    {(!show || show.includes('Html')) && <HtmlMini />}
+    {(!show || show.includes('Css')) && <CssMini />}
+    {(!show || show.includes('React')) && <ReactMini />}
+    {(!show || show.includes('Next')) && <NextMini />}
+    {(!show || show.includes('JavaScript')) && <JavaScriptMini />}
+    {(!show || show.includes('TypeScript')) && <TypeScriptMini />}
+    {(!show || show.includes('Electron')) && <ElectronMini />}
+    {(!show || show.includes('Vite')) && <ViteMini />}
+    {(!show || show.includes('Mongo')) && <MongoMini />}
+    {(!show || show.includes('Cloudinary')) && <CloudinaryMini />}
+    {(!show || show.includes('Python')) && <PythonMini />}
+    {(!show || show.includes('ThreeJs')) && <ThreeJsMini />}
   </div>
 );
 
