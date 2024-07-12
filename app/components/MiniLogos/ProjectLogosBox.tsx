@@ -1,4 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
 import { MotionDiv } from '../Motion/Motion';
 
 import {
@@ -36,13 +35,13 @@ const logoComponents = [
   { name: 'ThreeJs', component: ThreeJsMini, label: 'Three.js' },
 ];
 
-const ProjectLogosBox = (props: Props) => {
+const ProjectLogosBox = ({ show }: Props) => {
   let displayIndex = 1;
 
   return (
     <div className={styles.container}>
       {logoComponents.map(({ name, component: Component, label }) => {
-        if (!props.show || props.show.includes(name)) {
+        if (!show || show.includes(name)) {
           return (
             <MotionDiv
               // eslint-disable-next-line no-plusplus
