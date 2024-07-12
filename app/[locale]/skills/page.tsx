@@ -38,8 +38,6 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
           <h2>{t('second-header')}</h2>
           <p>{t('text')}</p>
         </MotionDiv>
-
-        {/* <SkillsCube /> */}
         <MotionSpan
           animate={{
             opacity: 1,
