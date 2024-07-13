@@ -4,17 +4,12 @@ import React from 'react';
 import ProjectLogosBox from '@/app/components/MiniLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
+import type { LocaleParams } from '@/app/lib/types';
 
 import IdealCityAdmin from '../../../../public/projects/ideal-city/ideal-city-admin.png';
 import IdealCityButtons from '../../../../public/projects/ideal-city/ideal-city-buttons.png';
 import IdealCityLogin from '../../../../public/projects/ideal-city/ideal-city-login.png';
 import IdealCity from '../../../../public/projects-images-home/ideal-city.png';
-
-type LocaleParams = {
-  params: {
-    locale: string;
-  };
-};
 
 const i18namespaces = ['project-ideal-city', 'global'];
 

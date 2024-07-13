@@ -1,17 +1,12 @@
 import Image from 'next/image';
 
 import { MotionDiv, MotionSpan } from '@/app/components/Motion/Motion';
+import type { LocaleParams } from '@/app/lib/types';
 
 import AdamPicture from '../../../public/adam-picture.png';
 import initTranslations from '../../i18n';
 
 import styles from './page.module.css';
-
-type LocaleParams = {
-  params: {
-    locale: string;
-  };
-};
 
 const i18namespaces = ['about-me'];
 

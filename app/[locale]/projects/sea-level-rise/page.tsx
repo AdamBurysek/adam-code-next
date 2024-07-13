@@ -4,14 +4,9 @@ import React from 'react';
 import ProjectLogosBox from '@/app/components/MiniLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
+import type { LocaleParams } from '@/app/lib/types';
 
 import SeaLevelRise from '../../../../public/projects-images-home/sea-level-rise.png';
-
-type LocaleParams = {
-  params: {
-    locale: string;
-  };
-};
 
 const i18namespaces = ['project-sea-level-rise', 'global'];
 

@@ -4,14 +4,9 @@ import React from 'react';
 import ProjectLogosBox from '@/app/components/MiniLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
+import type { LocaleParams } from '@/app/lib/types';
 
 import TravelinSalesman from '../../../../public/projects-images-home/traveling-salesman.png';
-
-type LocaleParams = {
-  params: {
-    locale: string;
-  };
-};
 
 const i18namespaces = ['project-traveling-salesman', 'global'];
 

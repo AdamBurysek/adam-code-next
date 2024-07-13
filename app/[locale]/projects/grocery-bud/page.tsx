@@ -4,14 +4,9 @@ import React from 'react';
 import ProjectLogosBox from '@/app/components/MiniLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
+import type { LocaleParams } from '@/app/lib/types';
 
 import GroceryBudImage from '../../../../public/projects/grocery-bud/grocery-bud.gif';
-
-type LocaleParams = {
-  params: {
-    locale: string;
-  };
-};
 
 const i18namespaces = ['project-grocery-bud', 'global'];
 
