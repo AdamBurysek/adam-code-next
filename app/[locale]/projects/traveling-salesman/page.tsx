@@ -6,6 +6,7 @@ import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
 import type { LocaleParams } from '@/app/lib/types';
 
+import TravelinSalesmanMap from '../../../../public/projects/traveling-salesman/salesman-czech-map.png';
 import TravelinSalesman from '../../../../public/projects-images-home/traveling-salesman.png';
 
 const i18namespaces = ['project-traveling-salesman', 'global'];
@@ -28,6 +29,13 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <h1 className="text-gradient">{t('project-header')}</h1>
         <p className="headerInfo">{t('header-info')}</p>
         <p className="projectDesc">{t('project-desc')}</p>
+        <Image
+          alt="Adam"
+          className="contentImage"
+          placeholder="blur"
+          priority
+          src={TravelinSalesmanMap}
+        />
         <p className="projectDesc">{t('project-desc-two')}</p>
         <p className="projectDesc">{t('project-desc-three')}</p>
         <div className="buttonBox">
