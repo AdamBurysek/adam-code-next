@@ -16,7 +16,7 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
     <div className="container">
       <div className="topBox">
         <Image
-          alt="Adam"
+          alt="Trading Bot Image"
           className="projectImage"
           placeholder="blur"
           priority

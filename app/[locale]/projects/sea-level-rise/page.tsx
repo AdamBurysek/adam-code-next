@@ -17,7 +17,7 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
     <div className="container">
       <div className="topBox">
         <Image
-          alt="Adam"
+          alt="Sea Level Rise App Image"
           className="projectImage"
           placeholder="blur"
           priority
@@ -30,7 +30,7 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <p className="headerInfo">{t('header-info')}</p>
         <p className="projectDesc">{t('project-desc')}</p>
         <Image
-          alt="Adam"
+          alt="Sea Level Rise Model Image"
           className="contentImage"
           placeholder="blur"
           priority

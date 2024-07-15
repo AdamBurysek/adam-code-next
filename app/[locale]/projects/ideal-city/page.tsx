@@ -19,7 +19,7 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
     <div className="container">
       <div className="topBox">
         <Image
-          alt="Adam"
+          alt="Ideal City App Image"
           className="projectImage"
           placeholder="blur"
           priority
@@ -38,7 +38,7 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <h2 className="projectHeader">{t('project-header-admin')}</h2>
         <p className="projectDesc">{t('project-admin-one')}</p>
         <Image
-          alt="Adam"
+          alt="Ideal City App Image"
           className="contentImage"
           placeholder="blur"
           src={IdealCityButtons}
@@ -46,14 +46,14 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <p className="projectDesc">{t('project-admin-two')}</p>
         <p className="projectDesc bold">{t('project-admin-password')}</p>
         <Image
-          alt="Adam"
+          alt="Ideal City App Image"
           className="contentImage"
           placeholder="blur"
           src={IdealCityLogin}
         />
         <p className="projectDesc">{t('project-admin-three')}</p>
         <Image
-          alt="Adam"
+          alt="Ideal City App Image"
           className="contentImage"
           placeholder="blur"
           src={IdealCityAdmin}

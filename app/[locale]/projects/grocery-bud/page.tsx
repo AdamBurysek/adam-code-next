@@ -16,7 +16,7 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
     <div className="container">
       <div className="topBox">
         <Image
-          alt="Adam"
+          alt="Grocery Bud App Image"
           className="projectImage"
           priority
           src={GroceryBudImage}
