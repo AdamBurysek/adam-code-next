@@ -1,7 +1,7 @@
 {
   "project-header": "Sea Level Rise",
   "header-info": "An application demonstrating changes in land with rising sea levels.",
-  "project-desc": "This simple application changes images based on the position of the slider. I retained the original exhibit images, only updating the design.",
+  "project-desc": "This simple application complements a physical exhibit and changes images according to the slider position, illustrating changes in landmass with sea level changes. I have preserved the original images from the exhibit, only modifying the design.",
   "project-desc-two": "For this application, I also wrote a Python program to convert the original PNG images to WebP format. Since there were approximately 180 images, this saved a lot of disk space and allowed the application to run faster.",
   "project-desc-three": "The application is designed for a resolution of 1920x1080 and is not responsive. The web version may have a few issues, such as incorrect font loading. In the future, I plan to add installation files in case anyone wants to install and try it."
 }

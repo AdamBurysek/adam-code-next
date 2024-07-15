@@ -6,6 +6,7 @@ import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
 import type { LocaleParams } from '@/app/lib/types';
 
+import SeaLevelRiseModel from '../../../../public/projects/sea-level-rise/sea-level-rise-model.png';
 import SeaLevelRise from '../../../../public/projects-images-home/sea-level-rise.png';
 
 const i18namespaces = ['project-sea-level-rise', 'global'];
@@ -28,6 +29,13 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <h1 className="text-gradient">{t('project-header')}</h1>
         <p className="headerInfo">{t('header-info')}</p>
         <p className="projectDesc">{t('project-desc')}</p>
+        <Image
+          alt="Adam"
+          className="contentImage"
+          placeholder="blur"
+          priority
+          src={SeaLevelRiseModel}
+        />
         <p className="projectDesc">{t('project-desc-two')}</p>
         <p className="projectDesc">{t('project-desc-three')}</p>
         <div className="buttonBox">
