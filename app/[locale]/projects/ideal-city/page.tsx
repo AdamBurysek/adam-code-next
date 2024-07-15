@@ -8,6 +8,7 @@ import type { LocaleParams } from '@/app/lib/types';
 
 import IdealCityAdmin from '../../../../public/projects/ideal-city/ideal-city-admin.png';
 import IdealCityButtons from '../../../../public/projects/ideal-city/ideal-city-buttons.png';
+import IdealCityExhibit from '../../../../public/projects/ideal-city/ideal-city-exhibit.png';
 import IdealCityLogin from '../../../../public/projects/ideal-city/ideal-city-login.png';
 import IdealCity from '../../../../public/projects-images-home/ideal-city.png';
 
@@ -33,6 +34,13 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <h1 className="text-gradient">{t('project-header')}</h1>
         <p className="headerInfo">{t('header-info')}</p>
         <p className="projectDesc">{t('project-desc')}</p>
+        <Image
+          alt="Ideal City Exhibition"
+          className="contentImage"
+          placeholder="blur"
+          priority
+          src={IdealCityExhibit}
+        />
         <p className="projectDesc">{t('project-desc-two')}</p>
         <p className="projectDesc">{t('project-desc-three')}</p>
         <h2 className="projectHeader">{t('project-header-admin')}</h2>
