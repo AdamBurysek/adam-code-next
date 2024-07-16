@@ -16,14 +16,9 @@ import MiniLogosBox from '../components/MiniLogos/MiniLogosBox';
 import { MotionDiv, MotionSpan } from '../components/Motion/Motion';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
 import initTranslations from '../i18n';
+import type { LocaleParams } from '../lib/types';
 
 import styles from './page.module.css';
-
-type LocaleParams = {
-  params: {
-    locale: string;
-  };
-};
 
 const i18namespaces = ['home'];
 
