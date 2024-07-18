@@ -1,7 +1,6 @@
 import React from 'react';
 
-import { GithubLogo, LinkedinLogo, MailLogo } from '../Icons';
-import AdamCodeLogo from '../Navbar/AdamCodeLogo';
+import { AdamCodeLogo, GithubLogo, LinkedinLogo, MailLogo } from '../Icons';
 
 import styles from './Footer.module.css';
 

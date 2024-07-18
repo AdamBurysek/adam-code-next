@@ -6,9 +6,9 @@ import { useTranslation } from 'react-i18next';
 
 import { i18nConfig } from '@/i18nConfig';
 
+import { AdamCodeLogo } from '../Icons';
 import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
 
-import AdamCodeLogo from './AdamCodeLogo';
 import HamburgerButton from './Hamburger';
 import styles from './Navbar.module.css';
 import { navLinks } from './navLinks';
