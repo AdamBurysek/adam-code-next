@@ -72,6 +72,7 @@ const getCookie = (name: string) => {
 
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState<string | null>(null);
+  // Fixing problem with floating slider when pages is changed
   const [duration, setDuration] = useState(0);
 
   const handleThemeButtonClick = (e: React.MouseEvent<HTMLButtonElement>) => {
