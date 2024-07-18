@@ -208,15 +208,6 @@ h4 {
   padding-left: 10vw;
 }
 
-@media screen and (min-width: 880px) {
-  .project-header-padding {
-    padding-left: 96px;
-  }
-  .text-with-padding {
-    padding-left: 115px;
-  }
-}
-
 .btn {
   width: 125px;
   height: 35px;
@@ -288,6 +279,12 @@ button {
 @media screen and (min-width: 880px) {
   .main {
     margin: 6rem;
+  }
+  .project-header-padding {
+    padding-left: 96px;
+  }
+  .text-with-padding {
+    padding-left: 115px;
   }
 }
 
