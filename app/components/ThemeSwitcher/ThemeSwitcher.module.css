@@ -1,12 +1,12 @@
 .themeSwitcher {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 162px;
   height: 54px;
   border: 2px solid var(--color-text);
   border-radius: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 4px;
   margin-bottom: 100svh;
   box-shadow: 0px 0px 14px 4px var(--color-background);

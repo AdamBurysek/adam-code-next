@@ -1,8 +1,8 @@
 .navbar {
   position: fixed;
-  width: 100%;
   display: flex;
   justify-content: center;
+  width: 100%;
   max-height: var(--navbar-height);
   background-color: var(--color-background);
   z-index: 990;
@@ -13,11 +13,11 @@
 }
 
 .container {
-  width: 100%;
-  max-width: calc(var(--max-width));
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  width: 100%;
+  max-width: calc(var(--max-width));
   margin: 20px;
 }
 
@@ -71,13 +71,13 @@
 
 .languageSwitcherDesktop {
   position: absolute;
-  padding: 5px 20px 5px 10px;
   top: -2px;
   right: 110px;
-  cursor: pointer;
-  border-radius: 5px;
   height: 80px;
   max-height: 30px;
+  padding: 5px 20px 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
   transition: 0.5s;
   overflow: hidden;
   display: none;
