@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  max-width: calc(var(--max-width));
+  max-width: var(--max-width);
   margin: 20px;
 }
 
@@ -183,6 +183,6 @@
 }
 
 .menuOpen {
-  max-height: 100svh;
+  max-height: 100dvh;
   background-color: var(--color-open-navbar);
 }
