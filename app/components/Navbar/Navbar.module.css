@@ -183,6 +183,6 @@
 }
 
 .menuOpen {
-  max-height: 100dvh;
+  max-height: 100vh;
   background-color: var(--color-open-navbar);
 }
