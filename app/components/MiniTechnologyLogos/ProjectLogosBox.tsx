@@ -1,5 +1,6 @@
 import { MotionDiv } from '../Motion/Motion';
 
+import styles from './ProjectLogosBox.module.css';
 import {
   CloudinaryMini,
   CssMini,
@@ -13,8 +14,7 @@ import {
   ThreeJsMini,
   TypeScriptMini,
   ViteMini,
-} from './MiniLogos';
-import styles from './ProjectLogosBox.module.css';
+} from './TechnologyLogos';
 
 type Props = {
   show?: string[] | string;

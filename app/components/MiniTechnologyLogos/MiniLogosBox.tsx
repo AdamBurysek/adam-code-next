@@ -1,3 +1,4 @@
+import styles from './MiniLogosBox.module.css';
 import {
   CloudinaryMini,
   CssMini,
@@ -11,8 +12,7 @@ import {
   ThreeJsMini,
   TypeScriptMini,
   ViteMini,
-} from './MiniLogos';
-import styles from './MiniLogosBox.module.css';
+} from './TechnologyLogos';
 
 type Props = {
   show?: string[] | string;

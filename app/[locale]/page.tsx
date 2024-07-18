@@ -12,7 +12,7 @@ import Modrice from '../../public/projects-images-home/modrice.png';
 import SeaLevelRise from '../../public/projects-images-home/sea-level-rise.png';
 import TradingBot from '../../public/projects-images-home/trading-bot.jpg';
 import TravelingSalesman from '../../public/projects-images-home/traveling-salesman.png';
-import MiniLogosBox from '../components/MiniLogos/MiniLogosBox';
+import MiniLogosBox from '../components/MiniTechnologyLogos/MiniLogosBox';
 import { MotionDiv, MotionSpan } from '../components/Motion/Motion';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
 import initTranslations from '../i18n';

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-import ProjectLogosBox from '@/app/components/MiniLogos/ProjectLogosBox';
+import ProjectLogosBox from '@/app/components/MiniTechnologyLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/i18n';
 import type { LocaleParams } from '@/app/lib/types';
