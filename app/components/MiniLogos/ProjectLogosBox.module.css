@@ -1,10 +1,10 @@
 .container {
-  height: fit-content;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 100%;
+  height: fit-content;
   gap: 2.5rem;
   padding: 2rem;
 }
@@ -21,7 +21,7 @@
 .logoContainer p {
   font-weight: 700;
   padding-left: 1.5rem;
-  font-size: clamp(1rem, 0.8857rem + 0.5714vw, 1.4rem);
+  font-size: var(--fs-logo-container);
 }
 
 @media screen and (max-width: 879px) {

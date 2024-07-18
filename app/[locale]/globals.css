@@ -31,6 +31,7 @@
   --fs-heading4: clamp(1.25rem, 1.0534rem + 0.9829vw, 1.938rem);
   --fs-heading5: clamp(1.188rem, 1.0811rem + 0.5343vw, 1.562rem);
   --fs-heading6: clamp(1.062rem, 1.0083rem + 0.2686vw, 1.25rem);
+  --fs-logo-container: clamp(1rem, 0.8857rem + 0.5714vw, 1.4rem);
 }
 
 @media (prefers-color-scheme: dark) {
