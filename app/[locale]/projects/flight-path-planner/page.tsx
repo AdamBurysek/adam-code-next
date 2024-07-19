@@ -7,6 +7,7 @@ import initTranslations from '@/app/i18n';
 import type { LocaleParams } from '@/app/lib/types';
 
 import FlightPathPlanner from '../../../../public/projects-images-home/flight-path-planner.png';
+import ProjectLinksBox from '@/app/components/ProjectLinksBox/ProjectLinksBox';
 
 const i18namespaces = ['project-flight-path-planner', 'global'];
 
@@ -30,16 +31,7 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <p className="projectDesc">{t('project-desc')}</p>
         <p className="projectDesc">{t('project-desc-two')}</p>
         <p className="projectDesc">{t('project-desc-three')}</p>
-        <div className="buttonBox">
-          <a
-            className="webLink"
-            href="https://adamplanet.cz/ostatniweby/flight-path-planner/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            {t('global:visit-button')}
-          </a>
-        </div>
+        <ProjectLinksBox locale={locale} webLink={'https://adamplanet.cz'} />
         <a
           className="webLink"
           href="https://adamplanet.cz/instalacni-soubory/FlightPath Planner - mac.zip"
