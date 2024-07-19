@@ -15,7 +15,7 @@ import TravelingSalesman from '../../public/projects-images-home/traveling-sales
 import MiniLogosBox from '../components/MiniTechnologyLogos/MiniLogosBox';
 import { MotionDiv, MotionSpan } from '../components/Motion/Motion';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
-import initTranslations from '../i18n';
+import initTranslations from '../lib/i18n';
 import type { LocaleParams } from '../lib/types';
 
 import styles from './page.module.css';

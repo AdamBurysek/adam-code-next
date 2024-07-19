@@ -10,7 +10,7 @@ import { i18nConfig, type Locale } from '@/i18nConfig';
 import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
 import TranslationsProvider from '../components/TranslationsProvider';
-import initTranslations from '../i18n';
+import initTranslations from '../lib/i18n';
 
 export const metadata: Metadata = {
   title: 'Adam Code',

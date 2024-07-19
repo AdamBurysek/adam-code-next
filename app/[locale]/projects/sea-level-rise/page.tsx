@@ -3,7 +3,7 @@ import React from 'react';
 
 import ProjectLogosBox from '@/app/components/MiniTechnologyLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
-import initTranslations from '@/app/i18n';
+import initTranslations from '@/app/lib/i18n';
 import type { LocaleParams } from '@/app/lib/types';
 
 import SeaLevelRiseModel from '../../../../public/projects/sea-level-rise/sea-level-rise-model.png';

@@ -1,4 +1,4 @@
-import initTranslations from '@/app/i18n';
+import initTranslations from '@/app/lib/i18n';
 import React from 'react';
 import { LinuxLogo, MacLogo, WindowsLogo } from './SystemIcons';
 
