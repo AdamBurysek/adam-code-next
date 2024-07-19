@@ -40,6 +40,14 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
             {t('global:visit-button')}
           </a>
         </div>
+        <a
+          className="webLink"
+          href="https://adamplanet.cz/instalacni-soubory/FlightPath Planner - mac.zip"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          {t('global:visit-button')}
+        </a>
       </div>
       <ProjectNavbar
         locale={locale}
