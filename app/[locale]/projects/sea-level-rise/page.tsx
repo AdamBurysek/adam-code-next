@@ -2,8 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 
 import ProjectLogosBox from '@/app/components/MiniTechnologyLogos/ProjectLogosBox';
+import ProjectLinksBox from '@/app/components/ProjectLinksBox/ProjectLinksBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
-import initTranslations from '@/app/i18n';
+import initTranslations from '@/app/lib/i18n';
 import type { LocaleParams } from '@/app/lib/types';
 
 import SeaLevelRiseModel from '../../../../public/projects/sea-level-rise/sea-level-rise-model.png';
@@ -38,16 +39,10 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         />
         <p className="projectDesc">{t('project-desc-two')}</p>
         <p className="projectDesc">{t('project-desc-three')}</p>
-        <div className="buttonBox">
-          <a
-            className="webLink"
-            href="https://www.adamplanet.cz/ostatniweby/sealevelrise/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            {t('global:visit-button')}
-          </a>
-        </div>
+        <ProjectLinksBox
+          locale={locale}
+          webLink="https://www.adamplanet.cz/ostatniweby/sealevelrise/"
+        />
       </div>
       <ProjectNavbar
         locale={locale}

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-import initTranslations from '@/app/i18n';
+import initTranslations from '@/app/lib/i18n';
 
 import { ArrowInCircle } from '../Icons';
 

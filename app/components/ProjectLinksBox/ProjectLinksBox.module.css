@@ -1,0 +1,54 @@
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.webLink {
+    color: var(--color-background);
+    background: linear-gradient(
+      90deg,
+      var(--color-primary) 0%,
+      var(--color-primary-light) 120%
+    );
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .webLink:hover {
+    background: var(--color-primary);
+  }
+
+.downloadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.downloadContainer > a > svg {
+  scale: 0.8;
+}
+
+.downloadContainer > a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.downloadContainer > a > p {
+  font-size: var(--fs-heading6);
+}
+
+.downloadContainer > a:hover > p,
+.downloadContainer > a:hover > p > span {
+  color: var(--color-primary);
+  transition: 0.3s;
+}
+
+.downloadContainer > a > p > span {
+  font-weight: 200;
+  font-size: 0.875rem;
+}
