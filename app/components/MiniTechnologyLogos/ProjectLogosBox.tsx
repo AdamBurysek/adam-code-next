@@ -1,3 +1,5 @@
+import type { FC } from 'react';
+
 import { MotionDiv } from '../Motion/Motion';
 
 import styles from './ProjectLogosBox.module.css';
@@ -16,11 +18,17 @@ import {
   ViteMini,
 } from './TechnologyLogos';
 
-type Props = {
+interface Props {
   show?: string[] | string;
+}
+
+type LogoComponents = {
+  name: string;
+  component: FC<React.SVGProps<SVGSVGElement>>;
+  label: string;
 };
 
-const logoComponents = [
+const logoComponents: LogoComponents[] = [
   { name: 'Html', component: HtmlMini, label: 'HTML' },
   { name: 'Css', component: CssMini, label: 'CSS' },
   { name: 'React', component: ReactMini, label: 'React' },

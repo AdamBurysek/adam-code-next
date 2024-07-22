@@ -1,15 +1,15 @@
 import type { StaticImageData } from 'next/image';
 
-export type LocaleParams = {
+export interface LocaleParams {
   params: {
     locale: string;
   };
-};
+}
 
-export interface Project {
+export type Project = {
   href: string;
   title: string;
   date: string;
   imageSrc: StaticImageData;
   logos: string[];
-}
+};
