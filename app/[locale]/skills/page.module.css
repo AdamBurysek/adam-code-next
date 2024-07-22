@@ -46,11 +46,11 @@
 
 .text h2 {
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
 }
 
 .text p {
-  padding-bottom: 30px;
+  padding-bottom: 2rem;
 }
 
 .bottomContainer {
