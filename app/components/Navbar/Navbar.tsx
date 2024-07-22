@@ -89,6 +89,10 @@ const Navbar = () => {
           </nav>
         </div>
         <div className={styles.navbarSide}>
+          {/* There are two different language switchers. */}
+          {/* Dropdown for desktop and buttons for mobile. */}
+
+          {/* Language switch Destktop */}
           <div className={styles.languageSwitcherDesktop}>
             <p>{currentLocale === 'en' ? 'EN' : 'CZ'}</p>
             <button
@@ -106,6 +110,7 @@ const Navbar = () => {
               EN
             </button>
           </div>
+          {/* Language switch Mobile */}
           <div className={styles.languageSwitcherMobile}>
             <button
               className={currentLocale === 'cs' ? styles.active : ''}
