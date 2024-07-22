@@ -26,7 +26,7 @@ const Navbar = () => {
     setMenuOpened(!menuOpened);
   };
 
-  const handleLanguageChange = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const onLanguageChange = (e: React.MouseEvent<HTMLButtonElement>) => {
     const newLocale: string = (e.currentTarget as HTMLButtonElement).value;
 
     // set cookie for next-i18n-router
@@ -92,14 +92,14 @@ const Navbar = () => {
           <div className={styles.languageSwitcherDesktop}>
             <p>{currentLocale === 'en' ? 'EN' : 'CZ'}</p>
             <button
-              onClick={(e) => handleLanguageChange(e)}
+              onClick={(e) => onLanguageChange(e)}
               type="button"
               value="cs"
             >
               CZ
             </button>
             <button
-              onClick={(e) => handleLanguageChange(e)}
+              onClick={(e) => onLanguageChange(e)}
               type="button"
               value="en"
             >
@@ -109,7 +109,7 @@ const Navbar = () => {
           <div className={styles.languageSwitcherMobile}>
             <button
               className={currentLocale === 'cs' ? styles.active : ''}
-              onClick={(e) => handleLanguageChange(e)}
+              onClick={(e) => onLanguageChange(e)}
               type="button"
               value="cs"
             >
@@ -117,7 +117,7 @@ const Navbar = () => {
             </button>
             <button
               className={currentLocale === 'en' ? styles.active : ''}
-              onClick={(e) => handleLanguageChange(e)}
+              onClick={(e) => onLanguageChange(e)}
               type="button"
               value="en"
             >
