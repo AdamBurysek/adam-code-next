@@ -16,13 +16,13 @@ import MiniLogosBox from '../components/MiniTechnologyLogos/MiniLogosBox';
 import { MotionDiv, MotionSpan } from '../components/Motion/Motion';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
 import initTranslations from '../lib/i18n';
-import type { LocaleParams } from '../lib/types';
+import type { LocaleParams, Project } from '../lib/types';
 
 import styles from './page.module.css';
 
 const i18namespaces = ['home'];
 
-const projects = [
+const projects: Project[] = [
   {
     href: '/projects/adam-planet',
     title: 'project-adam-planet',
