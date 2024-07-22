@@ -50,7 +50,7 @@ const ProjectLinksBox = async ({
               <WindowsLogo />
               <p>
                 Windows Download
-                {windowsSize && <span>({windowsSize})</span>}
+                {windowsSize && <span> ({windowsSize})</span>}
               </p>
             </a>
           )}
@@ -59,7 +59,7 @@ const ProjectLinksBox = async ({
               <MacLogo />
               <p>
                 Mac Download
-                {macSize && <span>({macSize})</span>}
+                {macSize && <span> ({macSize})</span>}
               </p>
             </a>
           )}
@@ -68,7 +68,7 @@ const ProjectLinksBox = async ({
               <LinuxLogo />
               <p>
                 Linux Download
-                {linuxSize && <span>({linuxSize})</span>}
+                {linuxSize && <span> ({linuxSize})</span>}
               </p>
             </a>
           )}
