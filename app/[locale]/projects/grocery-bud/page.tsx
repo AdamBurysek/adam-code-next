@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 import ProjectLogosBox from '@/app/components/MiniTechnologyLogos/ProjectLogosBox';
+import ProjectLinksBox from '@/app/components/ProjectLinksBox/ProjectLinksBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/lib/i18n';
 import type { LocaleParams } from '@/app/lib/types';
@@ -28,16 +29,10 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <p className="headerInfo">{t('header-info')}</p>
         <p className="projectDesc">{t('project-desc')}</p>
         <p className="projectDesc">{t('project-desc-two')}</p>
-        <div className="buttonBox">
-          <a
-            className="webLink"
-            href="https://adamplanet.cz/ostatniweby/grocery/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            {t('global:visit-button')}
-          </a>
-        </div>
+        <ProjectLinksBox
+          locale={locale}
+          webLink="https://adamplanet.cz/ostatniweby/grocery/"
+        />
       </div>
       <ProjectNavbar
         locale={locale}
