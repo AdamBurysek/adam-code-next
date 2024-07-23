@@ -3,5 +3,5 @@
   "header-info": "Dokážeš najít nejkratší cestu?",
   "project-desc": "Jako svou první aplikaci pro Vida Science Centrum jsem vytvořil tuto hru. Cílem je projít na mapě všechna města co nejkratší možnou cestou.",
   "project-desc-two": "Součástí tohoto projektu byl i další program napsaný v Pythonu, který vypočítával nejkratší vzdálenost. Za tento program musím poděkovat Chatu GPT. 😀",
-  "project-desc-three": "Aplikace je navržena pro rozlišení 1920x1080 a není responzivní. Webová verze může obsahovat několik chyb, například špatné načítání fontů. V budoucnu se pokusím přidat instalační soubory, aby si ji mohl kdokoli nainstalovat a vyzkoušet."
+  "project-desc-three": "Aplikace je navržena pro rozlišení 1920x1080 a není responzivní. Webová verze může obsahovat několik chyb, například špatné načítání fontů."
 }

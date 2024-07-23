@@ -40,8 +40,14 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <p className="projectDesc">{t('project-desc-two')}</p>
         <p className="projectDesc">{t('project-desc-three')}</p>
         <ProjectLinksBox
+          linuxDlLink="https://adamplanet.cz/instalacni-soubory/traveling-salesman/VIDA - Traveling Salesman-1.0.0.AppImage"
+          linuxSize="106,1 MB"
           locale={locale}
+          macDlLink="https://adamplanet.cz/instalacni-soubory/traveling-salesman/VIDA - Traveling Salesman-1.0.0.dmg"
+          macSize="101,5 MB"
           webLink="https://www.adamplanet.cz/ostatniweby/travelingsalesman/"
+          windowsDlLink="https://adamplanet.cz/instalacni-soubory/traveling-salesman/VIDA - Traveling Salesman Setup 1.0.0.exe"
+          windowsSize="82,8 MB"
         />
       </div>
       <ProjectNavbar

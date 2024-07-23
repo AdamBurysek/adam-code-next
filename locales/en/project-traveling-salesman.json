@@ -3,5 +3,5 @@
   "header-info": "Can you find the shortest route?",
   "project-desc": "As my first application for the Vida Science Center, I created this game. The goal is to travel through all the cities on the map in the shortest possible route.",
   "project-desc-two": "This project also included another program written in Python that calculated the shortest distance. I have to thank Chat GPT for this program. 😀",
-  "project-desc-three": "The application is designed for a resolution of 1920x1080 and is not responsive. The web version may have a few issues, such as incorrect font loading. In the future, I plan to add installation files so that anyone can install and try it out."
+  "project-desc-three": "The application is designed for a resolution of 1920x1080 and is not responsive. The web version may have a few issues, such as incorrect font loading."
 }
