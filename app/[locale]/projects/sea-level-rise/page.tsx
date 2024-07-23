@@ -40,8 +40,14 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <p className="projectDesc">{t('project-desc-two')}</p>
         <p className="projectDesc">{t('project-desc-three')}</p>
         <ProjectLinksBox
+          linuxDlLink="https://adamplanet.cz/instalacni-soubory/sea-level-rise/VIDA - Sea Level Rise-1.0.0.AppImage"
+          linuxSize="183,9 MB"
           locale={locale}
+          macDlLink="https://adamplanet.cz/instalacni-soubory/sea-level-rise/VIDA - Sea Level Rise-1.0.0.dmg"
+          macSize="179,5 MB"
           webLink="https://www.adamplanet.cz/ostatniweby/sealevelrise/"
+          windowsDlLink="https://adamplanet.cz/instalacni-soubory/sea-level-rise/VIDA - Sea Level Rise Setup 1.0.0.exe"
+          windowsSize="157,5 MB"
         />
       </div>
       <ProjectNavbar

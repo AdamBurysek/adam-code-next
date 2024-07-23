@@ -3,5 +3,5 @@
   "header-info": "Aplikace demonstrující změny pevniny při vzestupu hladiny moře.",
   "project-desc": "Tato jednoduchá aplikace je doplňkem fyzického exponátu a mění obrázky podle pozice slideru, které znázorňují změny pevniny při změně hladiny moře. Původní obrázky z exponátu jsem zachoval, pouze jsem upravil design.",
   "project-desc-two": "Pro tuto aplikaci jsem také napsal Python program, který konvertoval originální PNG obrázky do formátu WebP. Díky tomu, že obrázků bylo přibližně 180, se ušetřilo mnoho místa na disku a aplikace mohla běžet rychleji.",
-  "project-desc-three": "Aplikace je navržena pro rozlišení 1920x1080 a není responzivní. Webová verze může obsahovat několik chyb, například špatné načtení fontů. V budoucnu se pokusím přidat instalační soubory, aby si ji mohl kdokoli nainstalovat a vyzkoušet."
+  "project-desc-three": "Aplikace je navržena pro rozlišení 1920x1080 a není responzivní. Webová verze může obsahovat několik chyb, například špatné načtení fontů."
 }
