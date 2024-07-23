@@ -9,6 +9,6 @@
   "project-admin-two": "If you manage to press the buttons in the correct order, you will reach the login screen. Here, you need to enter the admin password.",
   "project-admin-password": "Password: test",
   "project-admin-three": "After entering the correct password, you will access the admin menu. Here you can delete images in the gallery or determine which images will be retained in the gallery and which will be deleted when the gallery reaches its maximum capacity.",
-  "project-desc-four": "The application is designed for a resolution of 1920x1080 and is not responsive. The web version may have a few issues, such as incorrect font loading. In the future, I plan to add installation files so that anyone can install and try it out. The backend is read-only in this version, so you don't have to worry about your photos being stored anywhere.",
+  "project-desc-four": "The application is designed for a resolution of 1920x1080 and is not responsive. The web version may have a few issues, such as incorrect font loading. The backend is read-only in this version, so you don't have to worry about your photos being stored anywhere.",
   "project-desc-five": "The initial loading of images may take a while."
 }

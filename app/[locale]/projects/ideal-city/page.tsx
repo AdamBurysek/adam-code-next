@@ -70,8 +70,14 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <p className="projectDesc">{t('project-desc-four')}</p>
         <p className="projectDesc">{t('project-desc-five')}</p>
         <ProjectLinksBox
+          linuxDlLink="https://adamplanet.cz/instalacni-soubory/ideal-city/VIDA - Ideal City-1.0.0.AppImage"
+          linuxSize="107,1 MB"
           locale={locale}
+          macDlLink="https://adamplanet.cz/instalacni-soubory/ideal-city/VIDA - Ideal City-1.0.0.dmg"
+          macSize="101,9 MB"
           webLink="https://www.adamplanet.cz/ostatniweby/idealcity/"
+          windowsDlLink="https://adamplanet.cz/instalacni-soubory/ideal-city/VIDA - Ideal City Setup 1.0.0.exe"
+          windowsSize="81 MB"
         />
       </div>
       <ProjectNavbar

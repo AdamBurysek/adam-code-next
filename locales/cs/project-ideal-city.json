@@ -9,6 +9,6 @@
   "project-admin-two": "Pokud se vám podaří stisknout tlačítka ve správném pořadí, dostanete se na přihlašovací obrazovku. Zde je nutné zadat admin heslo.",
   "project-admin-password": "Heslo: test",
   "project-admin-three": "Po zadání správného hesla se dostanete do admin menu. Zde je možné mazat obrázky v galerii, případně určovat, které obrázky budou zachovány v galerii a které naopak budou smazány při vyčerpání maximální kapacity galerie.",
-  "project-desc-four": "Aplikace je navržena pro rozlišení 1920x1080 a není responzivní. Webová verze může obsahovat několik chyb, například špatné načítání fontů. V budoucnu se pokusím přidat instalační soubory, aby si ji mohl kdokoli nainstalovat a vyzkoušet. Backend je v této verzi omezen pouze na čtení, takže se nemusíte bát, že by se vaše fotky někam ukládaly.",
+  "project-desc-four": "Aplikace je navržena pro rozlišení 1920x1080 a není responzivní. Webová verze může obsahovat několik chyb, například špatné načítání fontů. Backend je v této verzi omezen pouze na čtení, takže se nemusíte bát, že by se vaše fotky někam ukládaly.",
   "project-desc-five": "Prvotní načtení obrázků může chvíli trvat."
 }
