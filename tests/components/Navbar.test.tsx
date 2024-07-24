@@ -6,7 +6,7 @@ import { navLinks } from '@/app/components/Navbar/navLinks';
 
 vi.mock('react-i18next', () => ({
   useTranslation: () => ({
-    t: (key) => key,
+    t: (key: string) => key,
     i18n: {
       language: 'en',
     },
