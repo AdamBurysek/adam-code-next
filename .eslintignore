@@ -4,10 +4,12 @@
 node_modules
 out
 dist
+tests
 .eslintrc.js
 *.yml
 *.yaml
 tailwind.config.ts
 postcss.config.js
+vitest.config.ts
 next.config.mjs
 next-env.d.ts
