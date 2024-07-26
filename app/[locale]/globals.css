@@ -198,7 +198,7 @@ h4 {
 }
 
 .text-with-padding {
-  padding-left: 10vw;
+  padding-left: 1rem;
 }
 
 .btn {
@@ -267,6 +267,12 @@ button {
 .socials-logos:hover path {
   fill: var(--color-primary);
   transition: 0.3s;
+}
+
+@media screen and (min-width: 360px) {
+  .text-with-padding {
+    padding-left: 10vw;
+  }
 }
 
 @media screen and (min-width: 880px) {
