@@ -47,7 +47,7 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
           macSize="101,5 MB"
           webLink="https://www.adamplanet.cz/ostatniweby/travelingsalesman/"
           windowsDlLink="https://adamplanet.cz/instalacni-soubory/traveling-salesman/VIDA - Traveling Salesman Setup 1.0.0.exe"
-          windowsSize="82,8 MB"
+          windowsSize="80 MB"
         />
       </div>
       <ProjectNavbar
