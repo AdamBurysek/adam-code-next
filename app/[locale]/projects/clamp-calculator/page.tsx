@@ -7,9 +7,9 @@ import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/lib/i18n';
 import type { LocaleParams } from '@/app/lib/types';
 
-import AdamPlanet from '../../../../public/projects-images-home/adam-planet.png';
+import ClampCalculator from '../../../../public/projects-images-home/clamp-calculator.png';
 
-const i18namespaces = ['project-adam-planet', 'global'];
+const i18namespaces = ['project-clamp-calculator', 'global'];
 
 const Page = async ({ params: { locale } }: LocaleParams) => {
   const { t } = await initTranslations(locale, i18namespaces);
@@ -17,29 +17,24 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
     <div className="container">
       <div className="topBox">
         <Image
-          alt="Adam Planet Web Image"
+          alt="Clamp Calculator Image"
           className="projectImage"
           placeholder="blur"
           priority
-          src={AdamPlanet}
+          src={ClampCalculator}
         />
-        <ProjectLogosBox show={['Next', 'TypeScript', 'ThreeJs']} />
+        <ProjectLogosBox show={['React', 'TypeScript', 'Vite']} />
       </div>
       <div className="bottomBox">
         <h1 className="text-gradient">{t('project-header')}</h1>
         <p className="headerInfo">{t('header-info')}</p>
         <p className="projectDesc">{t('project-desc')}</p>
         <p className="projectDesc">{t('project-desc-two')}</p>
-        <ProjectLinksBox
-          locale={locale}
-          webLink="https://music.adamplanet.cz/"
-        />
+        <p className="projectDesc">{t('project-desc-three')}</p>
+        <p className="projectDesc">{t('project-desc-four')}</p>
+        <ProjectLinksBox locale={locale} webLink="https://adamplanet.cz/cc" />
       </div>
-      <ProjectNavbar
-        locale={locale}
-        nextLink="/projects/traveling-salesman"
-        prevLink="/projects/clamp-calculator"
-      />
+      <ProjectNavbar locale={locale} nextLink="/projects/adam-planet" />
     </div>
   );
 };

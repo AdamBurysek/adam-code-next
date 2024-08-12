@@ -4,6 +4,7 @@ import Link from 'next/link';
 import AdamCodeV2 from '../../public/projects-images-home/adam-code-v2.png';
 import AdamPlanetOldImage from '../../public/projects-images-home/adam-planet-v1.png';
 import AdamPlanetImage from '../../public/projects-images-home/adam-planet.png';
+import ClampCalculator from '../../public/projects-images-home/clamp-calculator.png';
 import FlightPathPlanner from '../../public/projects-images-home/flight-path-planner.png';
 import GroceryBud from '../../public/projects-images-home/grocery-bud.png';
 import IdealCity from '../../public/projects-images-home/ideal-city.png';
@@ -23,6 +24,13 @@ import styles from './page.module.css';
 const i18namespaces = ['home'];
 
 const projects: Project[] = [
+  {
+    href: '/projects/clamp-calculator',
+    title: 'project-clamp-calculator',
+    date: '2024',
+    imageSrc: ClampCalculator,
+    logos: ['React', 'TypeScript', 'Vite'],
+  },
   {
     href: '/projects/adam-planet',
     title: 'project-adam-planet',

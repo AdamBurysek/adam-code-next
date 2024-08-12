@@ -1,0 +1,8 @@
+{
+  "project-header": "Clamp kalkulačka",
+  "header-info": "Kalkulačka pro výpočet CSS clamp funkce",
+  "project-desc": "Osboně používám clamp funkci snad na každém webu nebo aplikaci kterou tvořím. Vždy minimálne pro velikost fontů. Na webu je sice mnoho různých clamp kalkulaček, ale žádná mi moc nevyhovuje a tak jsem se rozhodl naprogramovat vlastní.",
+  "project-desc-two": "Jedna z věcí kterou jsem chtěl přidat, je možnost generování komentáře, který danou funkci popisuje. Nevýhoda této funkce je, že z ní nejde určit jak přesně funguje. Toto by mělo vyřešit přidání komentáře do kódu.",
+  "project-desc-three": "Zároveň na interenetu neexisute kalkulačka podporující Tailwind CSS, tudíž jsem se rozhodl tuto díru zaplnit.",
+  "project-desc-four": "Na tomto projektu ještě aktuálně pracuji. Projekt bude free a open source. Chtěl bych zde přidat i návod jak clamp používat. Pokud máte nějaké nápady, jak kalkulátor vylepšit, případně najdete chybu, neváhejte mě kontaktovat."
+}

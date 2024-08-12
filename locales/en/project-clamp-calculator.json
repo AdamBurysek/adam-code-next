@@ -1,0 +1,8 @@
+{
+  "project-header": "Clamp Calculator",
+  "header-info": "Calculator for CSS clamp function",
+  "project-desc": "I personally use the clamp function on almost every website or application I create, at least for font sizes. Although there are many different clamp calculators online, none of them really suit me, so I decided to program my own.",
+  "project-desc-two": "One of the things I wanted to add is the ability to generate a comment that describes the function. The downside of this function is that it is not immediately clear how it works. Adding a comment to the code should solve this.",
+  "project-desc-three": "Additionally, there is no calculator on the internet that supports Tailwind CSS, so I decided to fill this gap.",
+  "project-desc-four": "I am currently still working on this project. The project will be free and open source. I would also like to add a guide on how to use clamp. If you have any ideas on how to improve the calculator, or if you find any errors, don't hesitate to contact me."
+}
