@@ -3,7 +3,7 @@
   "second-header": "I prefer Front-end",
   "text": "I am a creative and mathematically oriented person, which means I enjoy both frontend and backend development. Thanks to my empathetic nature, I also understand UI/UX. I simply strive to make applications as uncomplicated as possible and ensure they fulfill their purpose one hundred percent.",
   "ui-header": "UI and Graphics",
-  "figma": "I have completed an extensive course on Figma, so I know it very well.",
+  "figma": "I am very familiar with Figma and use it frequently.",
   "photoshop": "I used it in the past. Due to the expensive paid plans, I no longer use it today.",
   "procreate": "A cheap and fully sufficient replacement for Photoshop. I use it most often for drawing and editing images.",
   "html": "Simply a fundamental skill that needs to be mastered.",
@@ -22,5 +22,5 @@
   "other-header": "Others",
   "git": "A key tool for versioning, collaboration, and code management.",
   "postman": "Makes my life easier when testing and working with APIs.",
-  "docker": "I took a Docker course so that my lack of knowledge wouldn't limit me in team collaboration. Hopefully, I will use Docker more in the future."
+  "docker": "I only know the basics of Docker, and I use it very rarely."
 }

@@ -3,7 +3,7 @@
   "second-header": "Preferuji Front-end",
   "text": "Jsem kreativní a matematicky založený člověk, což znamená, že mě baví jak frontend, tak backend. Díky své empatické povaze rozumím i UI/UX. Jednoduše se snažím, aby aplikace byly co nejméně komplikované a plnily stoprocentně svůj účel.",
   "ui-header": "UI a Grafika",
-  "figma": "Mám za sebou rozsáhlý kurz na Figmu, takže ji znám opravdu dobře.",
+  "figma": "Figmu znám opravdu dobře a často ji používám.",
   "photoshop": "Používal jsem v minulosti. Díky drahým placeným plánům dnes již nepoužívam.",
   "procreate": "Levná a plně dostačující náhrada Photoshopu. Používám nejčastěji ke kreslení a úpravě obrázků.",
   "html": "Prostě základ, který je potřeba umět.",
@@ -22,5 +22,5 @@
   "other-header": "Ostatní",
   "git": "Klíčový nástroj pro verzování, spolupráci a správu kódu.",
   "postman": "Usnadňují mi život při testování a práci s API.",
-  "docker": "Udělal jsem si kurz na docker, aby mě neznalost neomezovala v týmové spolupráci. V budoucnu budu snad docker používat více."
+  "docker": "Znám pouze základy Dockeru, používám ho velmi výjimečně."
 }
