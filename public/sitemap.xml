@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <url>
+        <loc>https://code.adamplanet.cz/</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/about</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/about" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/about</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/about" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/skills</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/skills" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/skills</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/skills" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/clamp-calculator</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/clamp-calculator" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/clamp-calculator</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/clamp-calculator" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/adam-planet</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/adam-planet" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/adam-planet</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/adam-planet" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/traveling-salesman</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/traveling-salesman" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/traveling-salesman</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/traveling-salesman" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/ideal-city</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/ideal-city" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/ideal-city</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/ideal-city" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/sea-level-rise</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/sea-level-rise" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/sea-level-rise</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/sea-level-rise" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/flight-path-planner</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/flight-path-planner" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/flight-path-planner</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/flight-path-planner" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/old-adam-code</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/old-adam-code" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/old-adam-code</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/old-adam-code" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/metal-quiz</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/metal-quiz" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/metal-quiz</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/metal-quiz" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/modrice-go-kart</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/modrice-go-kart" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/modrice-go-kart</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/modrice-go-kart" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/trading-bot</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/trading-bot" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/trading-bot</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/trading-bot" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/grocery-bud</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/grocery-bud" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/grocery-bud</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/grocery-bud" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/projects/adam-planet-v1</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="cs"
+            href="https://code.adamplanet.cz/cs/projects/adam-planet-v1" />
+    </url>
+
+    <url>
+        <loc>https://code.adamplanet.cz/cs/projects/adam-planet-v1</loc>
+        <xhtml:link
+            rel="alternate"
+            hreflang="en"
+            href="https://code.adamplanet.cz/projects/adam-planet-v1" />
+    </url>
+
+</urlset>
