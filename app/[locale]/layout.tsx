@@ -3,7 +3,6 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { dir } from 'i18next';
 import type { Metadata } from 'next';
 import './globals.css';
-import Head from 'next/head';
 
 import { i18nConfig, type Locale } from '@/i18nConfig';
 
@@ -34,18 +33,6 @@ const RootLayout = async ({
   const { t, resources } = await initTranslations(locale, i18namespaces);
   return (
     <html dir={dir(locale)} lang={locale}>
-      <Head>
-        <link
-          href="https://code.adamplanet.cz/"
-          hrefLang="en"
-          rel="alternate"
-        />
-        <link
-          href="https://code.adamplanet.cz/cs"
-          hrefLang="cz"
-          rel="alternate"
-        />
-      </Head>
       <body>
         <SpeedInsights />
         <Analytics />
