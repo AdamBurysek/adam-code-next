@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react';
 
 import ProjectLogosBox from '@/app/components/MiniTechnologyLogos/ProjectLogosBox';
 import ProjectLinksBox from '@/app/components/ProjectLinksBox/ProjectLinksBox';
@@ -32,7 +31,10 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
         <p className="projectDesc">{t('project-desc-two')}</p>
         <p className="projectDesc">{t('project-desc-three')}</p>
         <p className="projectDesc">{t('project-desc-four')}</p>
-        <ProjectLinksBox locale={locale} webLink="https://adamplanet.cz/cc" />
+        <ProjectLinksBox
+          locale={locale}
+          webLink="https://clamp-calculator.netlify.app/"
+        />
       </div>
       <ProjectNavbar locale={locale} nextLink="/projects/adam-planet" />
     </div>
