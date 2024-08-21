@@ -161,9 +161,15 @@
     font-weight: 500;
     font-size: 1rem;
   }
+
+  .links:hover button {
+    color: var(--color-grey-nine);
+  }
+
   .links button:hover {
     color: var(--color-primary);
   }
+
   .logo {
     left: auto;
   }
