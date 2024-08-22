@@ -7,6 +7,12 @@ import { getCookie, setCookie } from '@/app/lib/cookies';
 
 import styles from './ThemeSwitcher.module.css';
 
+type ButtonProps = {
+  id: string;
+  label: string;
+  icon: React.ReactNode;
+};
+
 const Light = () => (
   <svg
     className={styles.svg}
@@ -63,12 +69,19 @@ const System = () => (
   </svg>
 );
 
+const buttons: ButtonProps[] = [
+  { id: 'light', label: 'Theme Mode Light', icon: <Light /> },
+  { id: 'system', label: 'Theme Mode System', icon: <System /> },
+  { id: 'dark', label: 'Theme Mode Dark', icon: <Dark /> },
+];
+
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState<string | null>(null);
   // Fixing problem with floating slider when pages is changed
   const [duration, setDuration] = useState(0);
 
   const handleThemeButtonClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    // Duration is set for short amount of time to prevent slider from floating
     setDuration(1);
     setTheme(e.currentTarget.id);
     setTimeout(() => setDuration(0), 100);
@@ -88,33 +101,18 @@ const ThemeSwitcher = () => {
 
   return (
     <div className={styles.themeSwitcher} data-theme={theme}>
-      <button
-        aria-label="Theme Mode Light"
-        className={styles.button}
-        id="light"
-        onClick={handleThemeButtonClick}
-        type="button"
-      >
-        <Light />
-      </button>
-      <button
-        aria-label="Theme Mode System"
-        className={styles.button}
-        id="system"
-        onClick={handleThemeButtonClick}
-        type="button"
-      >
-        <System />
-      </button>
-      <button
-        aria-label="Theme Mode Dark"
-        className={styles.button}
-        id="dark"
-        onClick={handleThemeButtonClick}
-        type="button"
-      >
-        <Dark />
-      </button>
+      {buttons.map((button) => (
+        <button
+          key={button.id}
+          aria-label={button.label}
+          className={styles.button}
+          id={button.id}
+          onClick={handleThemeButtonClick}
+          type="button"
+        >
+          {button.icon}
+        </button>
+      ))}
       <motion.div
         className={styles.slider}
         layout
