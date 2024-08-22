@@ -22,5 +22,6 @@
   "other-header": "Others",
   "git": "A key tool for versioning, collaboration, and code management.",
   "postman": "Makes my life easier when testing and working with APIs.",
-  "docker": "I only know the basics of Docker, and I use it very rarely."
+  "docker": "I only know the basics of Docker, and I use it very rarely.",
+  "vitest": "Using for writing tests."
 }

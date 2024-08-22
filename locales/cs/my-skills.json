@@ -22,5 +22,6 @@
   "other-header": "Ostatní",
   "git": "Klíčový nástroj pro verzování, spolupráci a správu kódu.",
   "postman": "Usnadňují mi život při testování a práci s API.",
-  "docker": "Znám pouze základy Dockeru, používám ho velmi výjimečně."
+  "docker": "Znám pouze základy Dockeru, používám ho velmi výjimečně.",
+  "vitest": "Používám pro psaní testů."
 }

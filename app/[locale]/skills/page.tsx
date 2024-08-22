@@ -103,6 +103,8 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
         <p>{t('postman')}</p>
         <h4>Docker</h4>
         <p>{t('docker')}</p>
+        <h4>Vitest + Testing Library</h4>
+        <p>{t('vitest')}</p>
       </MotionDiv>
     </div>
   );
