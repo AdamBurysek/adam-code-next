@@ -96,6 +96,16 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
         <p>{t('drizzle')}</p>
         <h3>{t('npm-header')}</h3>
         <p>{t('npm')}</p>
+        <h4>Axios</h4>
+        <p>{t('axios')}</p>
+        <h4>React Query</h4>
+        <p>{t('react-query')}</p>
+        <h4>Framer Motion</h4>
+        <p>{t('framer-motion')}</p>
+        <h4>Swiper</h4>
+        <p>{t('swiper')}</p>
+        <h4>Three</h4>
+        <p>{t('three')}</p>
         <h3>{t('other-header')}</h3>
         <h4>GitHub</h4>
         <p>{t('git')}</p>
