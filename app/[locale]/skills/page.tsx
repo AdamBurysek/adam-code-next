@@ -95,7 +95,9 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
         <h4>Drizzle + Postgres</h4>
         <p>{t('drizzle')}</p>
         <h3>{t('npm-header')}</h3>
-        <p>{t('npm')}</p>
+        <p>
+          <b>{t('npm')}</b>
+        </p>
         <h4>Axios</h4>
         <p>{t('axios')}</p>
         <h4>React Query</h4>
