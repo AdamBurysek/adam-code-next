@@ -11,6 +11,7 @@
   "react": "I chose React because of its large community, ecosystem, and simplicity.",
   "next": "Today, I primarily create web applications using Next.js. The simplicity and performance of Next.js have simply amazed me.",
   "react-native": "For mobile applications, I use React Native.",
+  "swift": "I know the basics of Swift and can make simple applications with it.",
   "electron": "When a desktop application is needed, I extend React with Electron.js.",
   "node": "I know the basics. So far, there hasn't been a reason to go deeper. Hopefully, a reason will arise in the future.",
   "express": "A simple framework for Node.js that can make life easier.",

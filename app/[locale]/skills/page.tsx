@@ -82,6 +82,8 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
         <p>{t('next')}</p>
         <h4>React Native</h4>
         <p>{t('react-native')}</p>
+        <h4>Swift</h4>
+        <p>{t('swift')}</p>
         <h4>Electron.js</h4>
         <p>{t('electron')}</p>
         <h3>Backend</h3>
