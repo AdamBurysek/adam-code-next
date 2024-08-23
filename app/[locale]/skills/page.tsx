@@ -74,6 +74,8 @@ const MySkills = async ({ params: { locale } }: LocaleParams) => {
         <h3>Frontend</h3>
         <h4>HTML, CSS, JavaScript</h4>
         <p>{t('html')}</p>
+        <h4>Tailwind CSS</h4>
+        <p>{t('tailwind')}</p>
         <h4>React</h4>
         <p>{t('react')}</p>
         <h4>Next.js</h4>
