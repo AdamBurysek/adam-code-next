@@ -22,7 +22,7 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
           priority
           src={ClampCalculator}
         />
-        <ProjectLogosBox show={['React', 'TypeScript', 'Vite']} />
+        <ProjectLogosBox show={['React', 'Tailwind', 'TypeScript', 'Vite']} />
       </div>
       <div className="bottomBox">
         <h1 className="text-gradient">{t('project-header')}</h1>

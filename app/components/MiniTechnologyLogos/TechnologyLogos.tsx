@@ -414,3 +414,15 @@ export const PythonMini = () => (
     </defs>
   </svg>
 );
+
+export const TailwindCssMini = () => (
+  <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <title>Tailwind CSS</title>
+    <mask id="mask0_2141_18" style={{}} maskUnits="userSpaceOnUse" x="0" y="0" width="30" height="18">
+      <path d="M0 0H30V18H0V0Z" fill="white" />
+    </mask>
+    <g mask="url(#mask0_2141_18)">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M15 0C11 0 8.5 2 7.5 6C9 4 10.75 3.25 12.75 3.75C13.8911 4.035 14.7067 4.86333 15.6094 5.77944C17.08 7.27222 18.7822 9 22.5 9C26.5 9 29 7 30 3C28.5 5 26.75 5.75 24.75 5.25C23.6089 4.965 22.7933 4.13667 21.8906 3.22056C20.42 1.72778 18.7178 0 15 0ZM7.5 9C3.5 9 1 11 0 15C1.5 13 3.25 12.25 5.25 12.75C6.39111 13.0356 7.20667 13.8633 8.10944 14.7794C9.58 16.2722 11.2822 18 15 18C19 18 21.5 16 22.5 12C21 14 19.25 14.75 17.25 14.25C16.1089 13.965 15.2933 13.1367 14.3906 12.2206C12.92 10.7278 11.2178 9 7.5 9Z" fill="#38BDF8" />
+    </g>
+  </svg>
+);

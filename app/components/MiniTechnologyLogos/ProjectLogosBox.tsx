@@ -16,6 +16,7 @@ import {
   ThreeJsMini,
   TypeScriptMini,
   ViteMini,
+  TailwindCssMini
 } from './TechnologyLogos';
 
 interface Props {
@@ -33,6 +34,7 @@ const logoComponents: LogoComponents[] = [
   { name: 'Css', component: CssMini, label: 'CSS' },
   { name: 'React', component: ReactMini, label: 'React' },
   { name: 'Next', component: NextMini, label: 'Next.js' },
+  { name: 'Tailwind', component: TailwindCssMini, label: 'Tailwind CSS' },
   { name: 'JavaScript', component: JavaScriptMini, label: 'JavaScript' },
   { name: 'TypeScript', component: TypeScriptMini, label: 'TypeScript' },
   { name: 'Electron', component: ElectronMini, label: 'Electron' },

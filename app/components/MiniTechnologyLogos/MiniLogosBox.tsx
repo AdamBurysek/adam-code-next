@@ -9,6 +9,7 @@ import {
   NextMini,
   PythonMini,
   ReactMini,
+  TailwindCssMini,
   ThreeJsMini,
   TypeScriptMini,
   ViteMini,
@@ -24,6 +25,7 @@ const MiniLogosBox = ({ show }: Props) => (
     {(!show || show.includes('Css')) && <CssMini />}
     {(!show || show.includes('React')) && <ReactMini />}
     {(!show || show.includes('Next')) && <NextMini />}
+    {(!show || show.includes('Tailwind')) && <TailwindCssMini />}
     {(!show || show.includes('JavaScript')) && <JavaScriptMini />}
     {(!show || show.includes('TypeScript')) && <TypeScriptMini />}
     {(!show || show.includes('Electron')) && <ElectronMini />}

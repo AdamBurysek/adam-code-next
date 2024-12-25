@@ -29,7 +29,7 @@ const projects: Project[] = [
     title: 'project-clamp-calculator',
     date: '2024',
     imageSrc: ClampCalculator,
-    logos: ['React', 'TypeScript', 'Vite'],
+    logos: ['React', 'Tailwind', 'TypeScript', 'Vite'],
   },
   {
     href: '/projects/adam-planet',
