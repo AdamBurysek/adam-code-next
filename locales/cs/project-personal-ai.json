@@ -1,0 +1,9 @@
+{
+    "project-header": "Můj AI Asistent",
+    "header-info": "Uživatelské rozhraní pro LLM modely",
+    "project-desc": "Tento AI asistent byl vytvořen pro osobní účely s důrazem na soukromí a bezpečnost. Největší předností je, že veškerá data zpracovává lokálně a nikdy neopouštějí váš počítač. To znamená, že můžete asistenta využívat bez obav z úniku citlivých informací.",
+    "project-desc-two": "Ovšem toto přináší i určitá negativa, jako například zvýšenou náročnost na výpočetní výkon počítače. Abych měl lepší přehled o jeho zatížení, přidal jsem si sledování několika základních parametrů systému.",
+    "project-desc-three": "Protože je asistent zaměřený primárně na programování, rozhodl jsem se přidat funkce, které zlepšují čitelnost kódu. Implementoval jsem formátování a barevné zvýraznění syntaxe, což usnadňuje práci s kódem",
+    "project-desc-four": "Je to pro mě nejen praktický pomocník, který mi usnadňuje práci, ale zároveň mi umožňuje hlouběji zkoumat a objevovat možnosti umělé inteligence. Při vývoji asistenta jsem měl příležitost detailně se seznámit s fungováním AI modelů, jejich optimalizací a integrací do reálných aplikací."
+}
+  

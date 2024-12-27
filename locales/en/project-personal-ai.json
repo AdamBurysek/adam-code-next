@@ -1,0 +1,9 @@
+{
+    "project-header": "My AI Assistant",
+    "header-info": "User Interface for LLM Models",
+    "project-desc": "This AI assistant was created for personal use with an emphasis on privacy and security. Its greatest advantage is that all data is processed locally and never leaves your computer. This means you can use the assistant without concerns about sensitive information being leaked.",
+    "project-desc-two": "However, this approach also brings certain drawbacks, such as increased demand on the computer's processing power. To better monitor its load, I added functionality for tracking several basic system parameters.",
+    "project-desc-three": "Since the assistant is primarily focused on programming, I decided to include features that improve code readability. I implemented formatting and syntax highlighting, which makes working with code easier and helps to better understand its structure.",
+    "project-desc-four": "For me, it is not only a practical tool that simplifies my daily tasks but also a platform that allows me to delve deeper into exploring the possibilities of artificial intelligence. During the development of this assistant, I had the opportunity to become thoroughly familiar with how AI models work, their optimization, and their integration into real-world applications."
+  }
+  

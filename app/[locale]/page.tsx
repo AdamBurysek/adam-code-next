@@ -10,6 +10,7 @@ import GroceryBud from '../../public/projects-images-home/grocery-bud.png';
 import IdealCity from '../../public/projects-images-home/ideal-city.png';
 import MetalQuiz from '../../public/projects-images-home/metal-quiz.png';
 import Modrice from '../../public/projects-images-home/modrice.png';
+import PersonalAI from '../../public/projects-images-home/PersonalAI.png';
 import SeaLevelRise from '../../public/projects-images-home/sea-level-rise.png';
 import TradingBot from '../../public/projects-images-home/trading-bot.jpg';
 import TravelingSalesman from '../../public/projects-images-home/traveling-salesman.png';
@@ -24,6 +25,13 @@ import styles from './page.module.css';
 const i18namespaces = ['home'];
 
 const projects: Project[] = [
+  {
+    href: '/projects/personal-ai',
+    title: 'project-personal-ai',
+    date: '2024',
+    imageSrc: PersonalAI,
+    logos: ['React', 'Tailwind', 'TypeScript', 'Electron', 'Vite'],
+  },
   {
     href: '/projects/clamp-calculator',
     title: 'project-clamp-calculator',

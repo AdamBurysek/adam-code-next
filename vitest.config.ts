@@ -9,7 +9,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': resolve(__dirname, '.'), // Odkazuje na kořenový adresář
+      '@': resolve(__dirname, '.'), 
     },
   },
 });
