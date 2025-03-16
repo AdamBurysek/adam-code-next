@@ -31,6 +31,7 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
           autoPlay
           loop
           muted
+          playsInline
           style={{ width: '100%', height: 'auto' }}
         >
           <source src="/projects/personal-ai/PersonalAIVideo.mp4" type="video/mp4" />
