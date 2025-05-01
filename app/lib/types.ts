@@ -1,9 +1,9 @@
 import type { StaticImageData } from 'next/image';
 
 export interface LocaleParams {
-  params: {
+  params: Promise<{
     locale: string;
-  };
+  }>;
 }
 
 export type Project = {
