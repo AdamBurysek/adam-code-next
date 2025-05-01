@@ -11,7 +11,11 @@ import OldAdamCode from '../../../../public/projects-images-home/adam-code-v2.pn
 
 const i18namespaces = ['project-old-adam-code', 'global'];
 
-const Page = async ({ params: { locale } }: LocaleParams) => {
+const Page = async (props: LocaleParams) => {
+  const params = await props.params;
+
+  const { locale } = params;
+
   const { t } = await initTranslations(locale, i18namespaces);
   return (
     <div className="container">

@@ -11,7 +11,11 @@ import MetalQuiz from '../../../../public/projects-images-home/metal-quiz.png';
 
 const i18namespaces = ['project-metal-quiz', 'global'];
 
-const Page = async ({ params: { locale } }: LocaleParams) => {
+const Page = async (props: LocaleParams) => {
+  const params = await props.params;
+
+  const { locale } = params;
+
   const { t } = await initTranslations(locale, i18namespaces);
   return (
     <div className="container">

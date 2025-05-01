@@ -9,7 +9,11 @@ import PersonalAI from '../../../../public/projects-images-home/PersonalAI.png';
 
 const i18namespaces = ['project-personal-ai', 'global'];
 
-const Page = async ({ params: { locale } }: LocaleParams) => {
+const Page = async (props: LocaleParams) => {
+  const params = await props.params;
+
+  const { locale } = params;
+
   const { t } = await initTranslations(locale, i18namespaces);
   return (
     <div className="container">
@@ -21,7 +25,9 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
           priority
           src={PersonalAI}
         />
-        <ProjectLogosBox show={['React', 'Tailwind', 'TypeScript', 'Electron', 'Vite']} />
+        <ProjectLogosBox
+          show={['React', 'Tailwind', 'TypeScript', 'Electron', 'Vite']}
+        />
       </div>
       <div className="bottomBox">
         <h1 className="text-gradient">{t('project-header')}</h1>
@@ -34,7 +40,10 @@ const Page = async ({ params: { locale } }: LocaleParams) => {
           playsInline
           style={{ width: '100%', height: 'auto' }}
         >
-          <source src="/projects/personal-ai/PersonalAIVideo.mp4" type="video/mp4" />
+          <source
+            src="/projects/personal-ai/PersonalAIVideo.mp4"
+            type="video/mp4"
+          />
           Váš prohlížeč nepodporuje přehrávání tohoto videa.
         </video>
         <p className="projectDesc">{t('project-desc-two')}</p>

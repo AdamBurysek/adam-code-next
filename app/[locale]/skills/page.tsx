@@ -10,7 +10,11 @@ import styles from './page.module.css';
 
 const i18namespaces = ['my-skills'];
 
-const MySkills = async ({ params: { locale } }: LocaleParams) => {
+const MySkills = async (props: LocaleParams) => {
+  const params = await props.params;
+
+  const { locale } = params;
+
   const { t } = await initTranslations(locale, i18namespaces);
   return (
     <div className={styles.container}>

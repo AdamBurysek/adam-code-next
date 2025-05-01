@@ -114,6 +114,7 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
+    'react/destructuring-assignment': 'off',
   },
   root: true,
   settings: {
@@ -145,6 +146,7 @@ module.exports = {
       files: ['app/**/*.tsx'],
       rules: {
         'react/jsx-props-no-spreading': 'off',
+        '@typescript-eslint/await-thenable': 'off',
       },
     },
   ],

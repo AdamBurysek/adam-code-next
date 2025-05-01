@@ -16,7 +16,7 @@ import {
   ThreeJsMini,
   TypeScriptMini,
   ViteMini,
-  TailwindCssMini
+  TailwindCssMini,
 } from './TechnologyLogos';
 
 interface Props {

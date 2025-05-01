@@ -118,7 +118,11 @@ const projects: Project[] = [
   },
 ];
 
-const Home = async ({ params: { locale } }: LocaleParams) => {
+const Home = async (props: LocaleParams) => {
+  const params = await props.params;
+
+  const { locale } = params;
+
   const { t } = await initTranslations(locale, i18namespaces);
 
   const grid = {

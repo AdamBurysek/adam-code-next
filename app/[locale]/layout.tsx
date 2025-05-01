@@ -22,13 +22,18 @@ export function generateStaticParams() {
 
 const i18namespaces = ['home', 'navbar'];
 
-const RootLayout = async ({
-  children,
-  params: { locale },
-}: Readonly<{
-  children: React.ReactNode;
-  params: { locale: Locale };
-}>) => {
+const RootLayout = async (
+  props: Readonly<{
+    children: React.ReactNode;
+    params: { locale: Locale };
+  }>,
+) => {
+  const params = await props.params;
+
+  const { locale } = params;
+
+  const { children } = props;
+
   // eslint-disable-next-line unused-imports/no-unused-vars, @typescript-eslint/no-unused-vars
   const { t, resources } = await initTranslations(locale, i18namespaces);
   return (
