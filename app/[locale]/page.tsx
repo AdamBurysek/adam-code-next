@@ -18,7 +18,7 @@ import MiniLogosBox from '../components/MiniTechnologyLogos/MiniLogosBox';
 import { MotionDiv, MotionSpan } from '../components/Motion/Motion';
 import TechnologyAnimation from '../components/TechnologyAnimation/TechnologyAnimation';
 import initTranslations from '../lib/i18n';
-import type { LocaleParams, Project } from '../lib/types';
+import type { PageProps, Project } from '../lib/types';
 
 import styles from './page.module.css';
 
@@ -118,7 +118,7 @@ const projects: Project[] = [
   },
 ];
 
-const Home = async (props: LocaleParams) => {
+const Home = async (props: PageProps) => {
   const params = await props.params;
 
   const { locale } = params;

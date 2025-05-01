@@ -5,14 +5,14 @@ import ProjectLogosBox from '@/app/components/MiniTechnologyLogos/ProjectLogosBo
 import ProjectLinksBox from '@/app/components/ProjectLinksBox/ProjectLinksBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/lib/i18n';
-import type { LocaleParams } from '@/app/lib/types';
+import type { PageProps } from '@/app/lib/types';
 
 import SeaLevelRiseModel from '../../../../public/projects/sea-level-rise/sea-level-rise-model.png';
 import SeaLevelRise from '../../../../public/projects-images-home/sea-level-rise.png';
 
 const i18namespaces = ['project-sea-level-rise', 'global'];
 
-const Page = async (props: LocaleParams) => {
+const Page = async (props: PageProps) => {
   const params = await props.params;
 
   const { locale } = params;

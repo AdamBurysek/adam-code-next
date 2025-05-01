@@ -4,13 +4,13 @@ import React from 'react';
 import ProjectLogosBox from '@/app/components/MiniTechnologyLogos/ProjectLogosBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/lib/i18n';
-import type { LocaleParams } from '@/app/lib/types';
+import type { PageProps } from '@/app/lib/types';
 
 import TradingBot from '../../../../public/projects-images-home/trading-bot.jpg';
 
 const i18namespaces = ['project-trading-bot', 'global'];
 
-const Page = async (props: LocaleParams) => {
+const Page = async (props: PageProps) => {
   const params = await props.params;
 
   const { locale } = params;

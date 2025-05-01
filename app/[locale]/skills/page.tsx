@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import { MotionDiv, MotionSpan } from '@/app/components/Motion/Motion';
-import type { LocaleParams } from '@/app/lib/types';
+import type { PageProps } from '@/app/lib/types';
 
 import LaptopImage from '../../../public/laptopImage.webp';
 import initTranslations from '../../lib/i18n';
@@ -10,7 +10,7 @@ import styles from './page.module.css';
 
 const i18namespaces = ['my-skills'];
 
-const MySkills = async (props: LocaleParams) => {
+const MySkills = async (props: PageProps) => {
   const params = await props.params;
 
   const { locale } = params;

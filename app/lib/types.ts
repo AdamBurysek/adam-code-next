@@ -1,6 +1,6 @@
 import type { StaticImageData } from 'next/image';
 
-export interface LocaleParams {
+export interface PageProps {
   params: Promise<{
     locale: string;
   }>;

@@ -4,13 +4,13 @@ import ProjectLogosBox from '@/app/components/MiniTechnologyLogos/ProjectLogosBo
 import ProjectLinksBox from '@/app/components/ProjectLinksBox/ProjectLinksBox';
 import ProjectNavbar from '@/app/components/ProjectNavbar/ProjectNavbar';
 import initTranslations from '@/app/lib/i18n';
-import type { LocaleParams } from '@/app/lib/types';
+import type { PageProps } from '@/app/lib/types';
 
 import ClampCalculator from '../../../../public/projects-images-home/clamp-calculator.png';
 
 const i18namespaces = ['project-clamp-calculator', 'global'];
 
-const Page = async (props: LocaleParams) => {
+const Page = async (props: PageProps) => {
   const params = await props.params;
 
   const { locale } = params;
