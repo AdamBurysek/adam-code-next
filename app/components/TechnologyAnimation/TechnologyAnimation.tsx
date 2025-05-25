@@ -11,6 +11,7 @@ import {
   Node,
   Python,
   ReactLogo,
+  SwiftLogo,
 } from './TechnologyIcons';
 
 const id = [1, 2, 3];
@@ -34,13 +35,14 @@ const TechnologyAnimation = () => (
           <section key={item}>
             <Figma />
             <MongoDb />
-            <Express />
             <ReactLogo />
             <Node />
+            <SwiftLogo />
             <Electron />
             <GitHub />
             <Python />
             <NextLogo />
+            <Express />
           </section>
         ))}
       </div>

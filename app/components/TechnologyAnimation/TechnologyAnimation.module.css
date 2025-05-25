@@ -38,6 +38,11 @@
 .svgFill {
   fill: var(--color-grey-three);
 }
+
+.svgBgFill {
+  fill: var(--color-background);
+}
+
 .svgStroke {
   stroke: var(--color-grey-three);
 }

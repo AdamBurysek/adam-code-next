@@ -50,6 +50,7 @@ const MySkills = async (props: PageProps) => {
       title: t('db-header'),
       items: [
         { title: 'MongoDB', desc: t('mongo') },
+        { title: 'SQL', desc: t('sql') },
         { title: 'Drizzle + Postgres', desc: t('drizzle') },
       ],
     },
