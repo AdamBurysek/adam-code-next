@@ -68,7 +68,7 @@ const MySkills = async (props: PageProps) => {
     {
       title: t('other-header'),
       items: [
-        { title: 'GitHub', desc: t('git') },
+        { title: 'Git', desc: t('git') },
         { title: 'Postman / Insomnia', desc: t('postman') },
         { title: 'Docker', desc: t('docker') },
         { title: 'Vitest + Testing Library', desc: t('vitest') },
