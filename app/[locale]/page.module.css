@@ -33,7 +33,8 @@
 
 .heroParagraph {
   max-width: 480px;
-  margin-left: 10vw;
+  /* margin-left: 32px, viewport: 320px -> margin-left: 88px, viewport: 880px */
+  margin-left: clamp(2rem, 0rem + 10vw, 5.5rem);
   margin-top: 1rem;
   color: var(--color-grey-nine);
 }
@@ -49,7 +50,8 @@
 .btnContainer {
   display: flex;
   gap: 10px;
-  padding: 2rem 0 2rem 10vw;
+  /* padding-left: 32px, viewport: 320px -> padding-left: 88px, viewport: 880px */
+  padding: 2rem 0 2rem clamp(2rem, 0rem + 10vw, 5.5rem);
 }
 
 .projectsContainer {
